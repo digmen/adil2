@@ -2,17 +2,19 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import logo from './images/logo.svg'
 
+import footerBg from './images/footer.png'
+
 export default function Footer() {
     return (
-        <div className='flex justify-between bg-black px-[40px] pt-[35px]'>
-            <div className='flex flex-col  pb-[14px] gap-[1px]'>
+        <div className='flex justify-between px-[40px] pt-[35px]  max-sm:flex-col  max-sm:pb-12' style={{ backgroundImage: `url(${footerBg})`, backgroundSize: 'cover' }}>
+            <div className='flex flex-col pb-[14px] gap-[1px]  max-sm:items-center'>
                 <Link to='/' className='text-white text-[20px] font-bold'>HOME</Link>
                 <Link to='/about' className='text-white text-[20px] font-bold'>ABOUT US</Link>
                 <Link to='/product' className='text-white text-[20px] font-bold'>PRODUCT</Link>
                 <Link to='/service' className='text-white text-[20px] font-bold'>SERVICES</Link>
                 <Link to='/contact' className='text-white text-[20px] font-bold'>CONTACT</Link>
             </div>
-            <div className='flex gap-[200px]'>
+            <div className='flex gap-[200px] md:gap-11 max-sm:flex-col  max-sm:gap-10  max-sm:items-center'>
                 <div className='flex items-center flex-col '>
                     <img src={logo} alt='logo' className='w-[77px] h-[69px]' />
                     <Link to='/' className='text-white text-[30px] font-bold'>ALPHA IMPEX</Link>
