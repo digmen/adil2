@@ -1,9 +1,82 @@
 {
-    "header": {
-		"homeLink": "ANA SAYFA",
-		"homeLink2": "HAKKIMIZDA",
-		"homeLink3": "ÜRÜNLER",
-		"homeLink4": "HİZMETLER",
-		"homeLink5": "İLETİŞİM"
-	}
+  "header": {
+    "homeLink": "EV",
+    "homeLink2": "HAKKIMIZDA",
+    "homeLink3": "ÜRÜN",
+    "homeLink4": "HİZMETLER",
+    "homeLink5": "TEMAS ETMEK"
+  },
+  "home": {
+    "homeTextHero": "Konforunuz ve keyfiniz için güvenilir nakliye ve kaliteli ürünler!",
+    "titleProduct": "Ürün yelpazesi",
+    "homeProductCardOne": "Ev aletleri",
+    "homeProductCardTWo": "Elektronik",
+    "homeProductCardThree": "Gıda Ürünleri",
+    "btn1": "Daha Fazla Ürün",
+    "titleAboutUs": "Hakkımızda",
+    "titleAboutUsPrgf": "Yük taşımacılığında ve çeşitli malların satışında güvenilir ortağınız Alpha Impex'e hoş geldiniz. ",
+    "titleAboutUsList1": "Elektrikli Ürün",
+    "titleAboutUsList2": "Ev aletleri",
+    "titleAboutUsList3": "Gıda Ürünleri",
+    "btn2": "Daha fazlasını bul",
+    "homeTitleDown": "Soru?",
+    "homeTitleTextDown": "Konforunuz ve keyfiniz için güvenilir nakliye ve kaliteli ürünler!",
+    "btn3": "Bize Ulaşın"
+  },
+  "about": {
+    "aboutTextHero": "HAKKIMIZDA",
+    "aboutText2": "Hakkımızda",
+    "aboutTextPrgf": "Yük taşımacılığında ve çeşitli malların satışında güvenilir ortağınız Alpha Impex'e hoş geldiniz. ",
+    "titleAboutUsList1": "Elektrikli Ürün",
+    "titleAboutUsList2": "Ev aletleri",
+    "titleAboutUsList3": "Gıda Ürünleri",
+    "aboutText3": "Şirketimizle ortak olmanın faydaları",
+    "abouaboutTextPrgf2": "Güvenilir, uzun vadeli ortaklıklar arıyoruz ve uygun işbirliği koşulları sunuyoruz. ",
+    "aboutTextCard1": "REKABETÇİ FİYAT",
+    "aboutTextCard2": "GENİŞ SEÇİM",
+    "aboutTextCard3": "RAHAT TESLİMAT",
+    "aboutTextCard4": "KALİTE ODAKLILIK",
+    "aboutTitleDown": "NEREDE BULUYORUZ",
+    "aboutTitleDownPrgf": "Elverişli konumumuz nedeniyle dünyanın geri kalanına kara, deniz ve hava yoluyla verimli bir şekilde teslimat yapıyoruz. ",
+    "aboutTitleDown2": "HEDEFLERİMİZ VE MİSYONUMUZ",
+    "aboutTitleDownPrgf2": "Müşterilerimize ortak olarak öncelik veriyoruz, uzun vadeli işbirliğini ve güvenilir ilişkileri vurguluyoruz. "
+  },
+  "product": {
+    "productHeroTitle": "ÜRÜN",
+    "productTitle2": "Neden bizi seçmelisiniz?",
+    "productList1": "Üst düzey tedarikçilerle kurduğumuz ortaklıklar aracılığıyla rekabetçi fiyatlandırmanın avantajlarından yararlanın.",
+    "productList2": "İhtiyaçlarınıza uygun geniş ürün yelpazesini keşfedin.",
+    "productList3": "Kapınıza kadar rahat küresel teslimatın keyfini çıkarın.",
+    "productList4": "Başarımızın temelinde kaliteli hizmete ve kapsamlı satış sonrası desteğe olan bağlılığımız yatmaktadır.",
+    "productCardText1": "REKABETÇİ FİYAT",
+    "productCardText2": "GENİŞ SEÇİM",
+    "productCardText3": "RAHAT TESLİMAT",
+    "productCardText4": "KALİTE ODAKLILIK",
+    "productCardTitle1": "Ev Aletleri",
+    "productCardTextPrgf1": "Önde gelen küresel markalardan geniş bir ev aletleri yelpazesi sunuyoruz. ",
+    "productCardTitle2": "Elektronik",
+    "productCardTextPrgf2": "Ürün yelpazemiz, hızla değişen teknoloji dünyasında önde kalmanıza yardımcı olan modern gadget'lar, bilgisayarlar, telefonlar ve diğer elektronik cihazları içerir.",
+    "productCardTitle3": "Gıda Ürünleri",
+    "productCardTextPrgf3": "Sağlığınızı ön planda tutuyoruz ve yalnızca en taze ve en kaliteli gıda ürünlerini sunuyoruz. ",
+    "productDownTitle1": "Şirketimiz esnek bir teslimat sistemi, malların güvenilir şekilde depolanması ve üst düzey müşteri hizmetleri sunmaktadır. ",
+    "productDownTitle2": "Bugün bize katılın ve hizmetlerimizin ve ürünlerimizin kalitesini ilk elden deneyimleyin! "
+  },
+  "service": {
+    "serviceHeroTitle": "SERVİSİMİZ",
+    "CardTitle": "Jeff Bezos: 'Müşterilerimizi bir partiye davet edilen misafirler olarak görüyoruz ve ev sahibi biziz. ",
+    "CardTitle2": "Lojistik",
+    "CardPrgf1": "Gerektiğinde parçaların mevcut olmaması veya üretimden kaldırılması durumunda, gereksinimlerinize tam olarak uyan alternatif markalardan uygun yedek parçaları bulmak için teknik destek sunuyoruz.",
+    "CardTitle3": "Mevcut ürünler için alternatif seçeneklerin araştırılması",
+    "CardPrgf2": "Küresel ürün tedariki stresli olabilir ancak bize güvenebilirsiniz! ",
+    "CardTitle4": "Ulaşım bilgi aktarım altyapısı",
+    "CardList1": "1.Yerel Ağ",
+    "CardList2": "2.Kurumsal ağ",
+    "CardList3": "3.Ağ veri merkezi"
+  },
+  "contact": {
+    "contactHeroTitle": "BİZE ULAŞIN",
+    "text1": "Bizi şu adreste bulabilirsiniz:",
+    "text2": "TELEFON NUMARASI:",
+    "text3": "KONUM:"
+  }
 }

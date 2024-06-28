@@ -9,16 +9,17 @@ import arrowCircle from './images/arrow-down-circle-fill.png'
 
 import aboutUs from './images/aboutusimgdown.png'
 
-import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 
 export default function AboutUs() {
+  const { t, i18n } = useTranslation();
   return (
     <div>
       <div className='h-[479px] relative' style={{ backgroundImage: `url(${aboutHeroImage})`, backgroundSize: 'cover' }}>
         <div className='absolute bg-[#00000070] h-[479px] w-full z-10'>
         </div>
         <div className='h-[479px] flex items-center justify-center z-20'>
-          <span className='text-white text-[65px] font-semibold text-center w-[614px] z-20'>ABOUT US</span>
+          <span className='text-white text-[65px] font-semibold text-center w-[614px] z-20 max-sm:text-[30px]'>{t('about.aboutTextHero')}</span>
         </div>
       </div>
 
@@ -26,20 +27,19 @@ export default function AboutUs() {
       <div className='flex justify-between mx-[125px] mt-[114px]  max-sm:mx-[15px]  max-sm:mt-[20px]'>
         <div className='flex flex-col'>
           <div className='flex flex-col gap-[20px]'>
-            <h1 className='text-[30px] text-white'>About Us</h1>
-            <span className='text-[30px] text-white  max-sm:text-[18px]'>Welcome to Alpha Impex – your reliable partner in freight transportation and the sale of various goods. We specialize in providing high-quality delivery and sales services in the following categories:</span>
+            <h1 className='text-[30px] text-white'>{t('about.aboutText2')}</h1>
+            <span className='text-[30px] text-white  max-sm:text-[18px]'>{t('about.aboutTextPrgf')}</span>
           </div>
           <div className='mt-[30px]'>
             <ol>
-              <li className='flex gap-2 items-center text-white max-sm:text-[20px]'><div className='w-[12px] h-[12px] bg-white rounded-full'></div> Electric Product</li>
-              <li className='flex gap-2 items-center text-white max-sm:text-[20px]'><div className='w-[12px] h-[12px] bg-white rounded-full'></div>Household Appliances</li>
-              <li className='flex gap-2 items-center text-white max-sm:text-[20px]'><div className='w-[12px] h-[12px] bg-white rounded-full'></div>Food Products</li>
+              <li className='flex gap-2 items-center text-white max-sm:text-[20px] text-[30px]'><div className='w-[12px] h-[12px] bg-white rounded-full'></div>{t('about.titleAboutUsList1')}</li>
+              <li className='flex gap-2 items-center text-white max-sm:text-[20px] text-[30px]'><div className='w-[12px] h-[12px] bg-white rounded-full'></div>{t('about.titleAboutUsList2')}</li>
+              <li className='flex gap-2 items-center text-white max-sm:text-[20px] text-[30px]'><div className='w-[12px] h-[12px] bg-white rounded-full'></div>{t('about.titleAboutUsList3')}</li>
             </ol>
           </div>
           <div className='mt-[50px] flex flex-col gap-[37px]'>
-            <h1 className='text-white font-black text-[30px]'>Benefits of partnering with our company</h1>
-            <p className='text-white font-medium text-[30px]  max-sm:text-[18px]'>We seek reliable, long-term partnerships and offer favorable terms for cooperation.
-              Equipment failures and operational disruptions can significantly impact business operations. ALPHA IMPEX provides seamless access to a global inventory of products, helping manufacturers worldwide minimize downtime. Our customers benefit from a broad range of products, quality services, and strategic, sustainable solutions tailored to their needs.</p>
+            <h1 className='text-white font-black text-[30px]'>{t('about.aboutText3')}</h1>
+            <p className='text-white font-medium text-[30px]  max-sm:text-[18px]'>{t('about.abouaboutTextPrgf2')}</p>
           </div>
         </div>
       </div>
@@ -49,21 +49,21 @@ export default function AboutUs() {
           <div className='flex flex-col'>
             <div className='flex flex-col items-center'>
               <img className='w-[200px] h-[180px] md:w-[150px] md:h-[130px]  max-sm:h-[130px] max-sm:w-[150px]' src={pricetags} />
-              <span className='text-white text-[30px] font-extrabold md:text-[20px] max-sm:text-[20px]'>COMPETITIVE PRICE</span>
+              <span className='text-white text-[30px] font-extrabold md:text-[20px] max-sm:text-[20px]'>{t('about.aboutTextCard1')}</span>
             </div>
             <div className='flex flex-col items-center'>
               <img className='w-[200px] h-[180px] md:w-[150px] md:h-[130px] max-sm:h-[130px] max-sm:w-[150px]' src={caravan} />
-              <span className='text-white text-[30px] font-extrabold md:text-[20px]  max-sm:text-[20px]'>WIDE SELECTION</span>
+              <span className='text-white text-[30px] font-extrabold md:text-[20px]  max-sm:text-[20px]'>{t('about.aboutTextCard2')}</span>
             </div>
           </div>
           <div className='flex flex-col'>
             <div className='flex flex-col items-center'>
               <img className='w-[200px] h-[180px] md:w-[150px] md:h-[130px] max-sm:h-[130px] max-sm:w-[150px]' src={bulding} />
-              <span className='text-white text-[30px] font-extrabold md:text-[20px]  max-sm:text-[20px]'>CONVENIENT DELIVERY</span>
+              <span className='text-white text-[30px] font-extrabold md:text-[20px]  max-sm:text-[20px]'>{t('about.aboutTextCard3')}</span>
             </div>
             <div className='flex flex-col items-center'>
               <img className='w-[200px] h-[180px] md:w-[150px] md:h-[130px] max-sm:h-[130px] max-sm:w-[150px]' src={arrowCircle} />
-              <span className='text-white text-[30px] font-extrabold md:text-[20px]  max-sm:text-[20px]'>QUALITY ORIENTATION</span>
+              <span className='text-white text-[30px] font-extrabold md:text-[20px]  max-sm:text-[20px]'>{t('about.aboutTextCard4')}</span>
             </div>
           </div>
         </div>
@@ -74,12 +74,12 @@ export default function AboutUs() {
         <div className='absolute bg-[#0000009e] h-[605px] w-full z-10'>
         </div>
         <div className=' flex flex-col gap-[17px]  w-[1100px] z-20 md:w-[700px] sm:w-[500px] max-sm:w-[330px]'>
-          <h1 className='text-[30px] font-black text-white z-20 max-sm:text-[20px]'>WHERE WE LOCATE</h1>
-          <span className='text-white text-[30px] font-semibold z-20 md:text-[20px] max-sm:text-[16px]'> Due to our convenient location, we efficiently deliver to the rest of the world by land, sea, and air. Currently we are serving customers in over 50 countries.</span>
+          <h1 className='text-[30px] font-black text-white z-20 max-sm:text-[20px]'>{t('about.aboutTitleDown')}</h1>
+          <span className='text-white text-[30px] font-semibold z-20 md:text-[20px] max-sm:text-[16px]'> {t('about.aboutTitleDownPrgf')}</span>
         </div>
         <div className=' flex flex-col gap-[17px] w-[1100px] z-20 md:w-[700px] sm:w-[500px] max-sm:w-[330px]'>
-          <h1 className='text-[30px] font-black text-white z-20 max-sm:text-[20x]'>OUR GOALS AND MISSION</h1>
-          <span className='text-white text-[30px] font-semibold z-20 md:text-[20px] max-sm:text-[16px]'> We prioritize our customers as partners, stressing long-term collaboration and reliable relationships. Our focus is on delivering advanced solutions that foster growth, extending beyond mere product supply to include resolving associated challenges. ALPHA IMPEX places a strong emphasis on upholding professional standards and continuously enhancing our technical department through training.</span>
+          <h1 className='text-[30px] font-black text-white z-20 max-sm:text-[20x]'>{t('about.aboutTitleDown2')}</h1>
+          <span className='text-white text-[30px] font-semibold z-20 md:text-[20px] max-sm:text-[16px]'> {t('about.aboutTitleDownPrgf2')}</span>
         </div>
       </div>
     </div>
