@@ -3,8 +3,11 @@ import { Link } from 'react-router-dom'
 import logo from './images/logo.svg'
 
 import footerBg from './images/footer.png'
+import { useTranslation } from 'react-i18next'
 
 export default function Footer() {
+    const { t, i18n } = useTranslation()
+
     return (
         <div className='flex justify-between px-[40px] pt-[35px]  max-sm:flex-col  max-sm:pb-12' style={{ backgroundImage: `url(${footerBg})`, backgroundSize: 'cover' }}>
             <div className='flex flex-col pb-[14px] gap-[1px]  max-sm:items-center'>

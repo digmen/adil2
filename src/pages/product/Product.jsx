@@ -30,7 +30,7 @@ export default function Product() {
         <h1 className='text-white font-black text-[35px]'>Why choose us?</h1>
         <div className='flex justify-between lg:flex-wrap lg:justify-center lg:gap-7 md:flex-wrap md:gap-9 md:justify-center max-sm:flex-wrap max-sm:justify-center max-sm:gap-9'>
           <div className='mt-[30px]'>
-            <ol className='w-[400px] flex-col flex gap-2 lg:w-full md:w-full'>
+            <ol className='w-[400px] flex-col flex gap-2 lg:w-full md:w-full   max-sm:w-[330px]'>
               <li className='flex gap-2 items-center text-white text-[30px] font-medium max-sm:text-[20px]'><div className='w-[18px] h-[18px] min-w-[18px] min-h-[18px] bg-white rounded-full'></div>Take advantage of competitive pricing through our established partnerships with top-tier suppliers.</li>
               <li className='flex gap-2 items-center text-white text-[30px] font-medium max-sm:text-[20px]'><div className='w-[18px] h-[18px] min-w-[18px] min-h-[18px] bg-white rounded-full'></div>Explore a wide array of products to suit your needs.</li>
               <li className='flex gap-2 items-center text-white text-[30px] font-medium max-sm:text-[20px]'><div className='w-[18px] h-[18px] min-w-[18px] min-h-[18px] bg-white rounded-full'></div>Enjoy convenient global delivery to your doorstep.</li>

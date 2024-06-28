@@ -19,15 +19,15 @@ export default function AboutUs() {
         </div>
         <div className='h-[479px] flex items-center justify-center z-20'>
           <span className='text-white text-[65px] font-semibold text-center w-[614px] z-20'>ABOUT US</span>
-        </div>a
+        </div>
       </div>
 
 
-      <div className='flex justify-between mx-[125px] mt-[114px]  max-sm:mx-[15px]'>
+      <div className='flex justify-between mx-[125px] mt-[114px]  max-sm:mx-[15px]  max-sm:mt-[20px]'>
         <div className='flex flex-col'>
           <div className='flex flex-col gap-[20px]'>
             <h1 className='text-[30px] text-white'>About Us</h1>
-            <span className='text-[30px] text-white'>Welcome to Alpha Impex – your reliable partner in freight transportation and the sale of various goods. We specialize in providing high-quality delivery and sales services in the following categories:</span>
+            <span className='text-[30px] text-white  max-sm:text-[18px]'>Welcome to Alpha Impex – your reliable partner in freight transportation and the sale of various goods. We specialize in providing high-quality delivery and sales services in the following categories:</span>
           </div>
           <div className='mt-[30px]'>
             <ol>
@@ -38,32 +38,32 @@ export default function AboutUs() {
           </div>
           <div className='mt-[50px] flex flex-col gap-[37px]'>
             <h1 className='text-white font-black text-[30px]'>Benefits of partnering with our company</h1>
-            <p className='text-white font-medium text-[30px]'>We seek reliable, long-term partnerships and offer favorable terms for cooperation.
+            <p className='text-white font-medium text-[30px]  max-sm:text-[18px]'>We seek reliable, long-term partnerships and offer favorable terms for cooperation.
               Equipment failures and operational disruptions can significantly impact business operations. ALPHA IMPEX provides seamless access to a global inventory of products, helping manufacturers worldwide minimize downtime. Our customers benefit from a broad range of products, quality services, and strategic, sustainable solutions tailored to their needs.</p>
           </div>
         </div>
       </div>
 
       <div className='flex justify-center mt-[50px]'>
-        <div className='flex gap-[102px] max-sm:flex-wrap max-sm:justify-center'>
+        <div className='flex gap-[102px] max-sm:flex-wrap max-sm:justify-center max-sm:gap-[50px]'>
           <div className='flex flex-col'>
             <div className='flex flex-col items-center'>
-              <img className='w-[200px] h-[180px] md:w-[150px] md:h-[130px]' src={pricetags} />
-              <span className='text-white text-[30px] font-extrabold md:text-[20px]'>COMPETITIVE PRICE</span>
+              <img className='w-[200px] h-[180px] md:w-[150px] md:h-[130px]  max-sm:h-[130px] max-sm:w-[150px]' src={pricetags} />
+              <span className='text-white text-[30px] font-extrabold md:text-[20px] max-sm:text-[20px]'>COMPETITIVE PRICE</span>
             </div>
             <div className='flex flex-col items-center'>
-              <img className='w-[200px] h-[180px] md:w-[150px] md:h-[130px]' src={caravan} />
-              <span className='text-white text-[30px] font-extrabold md:text-[20px]'>WIDE SELECTION</span>
+              <img className='w-[200px] h-[180px] md:w-[150px] md:h-[130px] max-sm:h-[130px] max-sm:w-[150px]' src={caravan} />
+              <span className='text-white text-[30px] font-extrabold md:text-[20px]  max-sm:text-[20px]'>WIDE SELECTION</span>
             </div>
           </div>
           <div className='flex flex-col'>
             <div className='flex flex-col items-center'>
-              <img className='w-[200px] h-[180px] md:w-[150px] md:h-[130px]' src={bulding} />
-              <span className='text-white text-[30px] font-extrabold md:text-[20px]'>CONVENIENT DELIVERY</span>
+              <img className='w-[200px] h-[180px] md:w-[150px] md:h-[130px] max-sm:h-[130px] max-sm:w-[150px]' src={bulding} />
+              <span className='text-white text-[30px] font-extrabold md:text-[20px]  max-sm:text-[20px]'>CONVENIENT DELIVERY</span>
             </div>
             <div className='flex flex-col items-center'>
-              <img className='w-[200px] h-[180px] md:w-[150px] md:h-[130px]' src={arrowCircle} />
-              <span className='text-white text-[30px] font-extrabold md:text-[20px]'>QUALITY ORIENTATION</span>
+              <img className='w-[200px] h-[180px] md:w-[150px] md:h-[130px] max-sm:h-[130px] max-sm:w-[150px]' src={arrowCircle} />
+              <span className='text-white text-[30px] font-extrabold md:text-[20px]  max-sm:text-[20px]'>QUALITY ORIENTATION</span>
             </div>
           </div>
         </div>

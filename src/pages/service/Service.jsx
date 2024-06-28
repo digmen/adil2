@@ -17,7 +17,7 @@ export default function Service() {
 
       <div className='flex justify-center mt-[83px]'>
         <div className='w-[1000px] flex justify-center items-center'>
-          <span className='font-medium text-white text-[30px] text-center'>Jeff Bezos: "We see our customers as invited guests to a party, and we are the hosts. It’s our job every day to make every important aspect of the customer experience a little bit better."</span>
+          <span className='font-medium text-white text-[30px] text-center  max-sm:text-[20px] max-sm:mx-5'>Jeff Bezos: "We see our customers as invited guests to a party, and we are the hosts. It’s our job every day to make every important aspect of the customer experience a little bit better."</span>
         </div>
       </div>
 
