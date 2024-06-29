@@ -21,10 +21,10 @@ export default function Header() {
     const [modal, setModal] = useState(false)
 
     return (
-        <div className='h-[125px] flex justify-center gap-[50px] pt-[4px] relative'>
-            <div className='flex items-center flex-col lg:gap-[10px] md:gap-1'>
+        <div className='h-[125px] flex justify-between gap-[50px] pt-[4px] px-[40px] relative bg-[#000000a4] max-sm:px-4'>
+            <div className='flex items-center flex-col lg:gap-[10px] md:gap-1 max-sm:gap-[20px]'>
                 <img src={logo} alt='logo' className='w-[77px] h-[69px]' />
-                <Link to='/' className='text-white text-[30px] font-bold lg:text-[20px] md:text-[16px]'>ALPHA IMPEX</Link>
+                <Link to='/' className='text-white text-[30px] font-bold lg:text-[20px] md:text-[16px] max-sm:text-[16px] w-max'>ALPHA IMPEX</Link>
             </div>
 
             <div className='flex items-end pb-[14px] gap-[50px] lg:gap-4 md:gap-2 max-md:pb-[30px] max-sm:hidden max-2xl:pd-[14px] max-lg:pb-[28px]'>
@@ -49,7 +49,7 @@ export default function Header() {
                 </div>
             </div>
             {modal &&
-                <div className='absolute top-[120px] bg-white z-50 w-full'>
+                <div className='absolute top-[120px] left-0 bg-white z-50 w-full'>
                     <div className='flex flex-col items-center py-4'>
                         <Link onClick={() => setModal(prev => !prev)} to='/' className='lg:text-[16px] md:text-[12px] text-black text-[20px] font-bold border w-full text-center'>{t('header.homeLink')}</Link>
                         <Link onClick={() => setModal(prev => !prev)} to='/about' className='lg:text-[16px] md:text-[12px] text-black text-[20px] font-bold w-max border w-full text-center'>{t('header.homeLink2')}</Link>

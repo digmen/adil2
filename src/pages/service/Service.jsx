@@ -1,10 +1,24 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 import serviceHero from './images/serviceimg.png'
 import { useTranslation } from 'react-i18next';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+
+
+
 export default function Service() {
   const { t, i18n } = useTranslation();
+
+
+  useEffect(() => {
+    AOS.init({
+      easing: 'ease', // функция сглаживания анимации
+      mirror: false, // запуск анимации при прокрутке назад
+    });
+  }, []);
 
   return (
     <div>
@@ -18,28 +32,28 @@ export default function Service() {
       </div>
 
 
-      <div className='flex justify-center mt-[83px]'>
-        <div className='w-[1000px] flex justify-center items-center'>
-          <span className='font-medium text-white text-[30px] text-center  max-sm:text-[20px] max-sm:mx-5'>{t('service.CardTitle')}</span>
+      <div className='flex justify-center mt-[83px] mx-[40px] max-sm:mx-[15px]'>
+        <div data-aos="flip-up" className='flex justify-center items-center'>
+          <span className='font-medium text-white text-[30px] text-center  max-sm:text-[20px] '>{t('service.CardTitle')}</span>
         </div>
       </div>
 
 
       <div className='flex justify-center flex-wrap gap-[20px] mt-[32px] mb-[62px]'>
         <div className='flex'>
-          <div className='max-sm:w-[330px] w-[516px] h-[335px] rounded-[20px] bg-[#828282] flex items-center justify-center flex-col gap-[60px]'>
+          <div data-aos="flip-right" data-aos-duration="1000" className='max-sm:w-[330px] w-[516px] h-[335px] rounded-[20px] bg-[#828282] flex items-center justify-center flex-col gap-[60px]'>
             <h1 className='font-medium text-[30px] text-white text-center max-sm:text-[20px]'>{t('service.CardTitle2')}</h1>
             <span className='font-semibold text-[20px] text-white w-[480px] text-center max-sm:w-[300px]'>{t('service.CardPrgf1')}</span>
           </div>
         </div>
         <div>
-          <div className='max-sm:w-[330px] w-[516px] h-[335px] rounded-[20px] bg-[#828282] flex items-center justify-center flex-col gap-[60px]'>
+          <div data-aos="flip-left" data-aos-duration="1000" className='max-sm:w-[330px] w-[516px] h-[335px] rounded-[20px] bg-[#828282] flex items-center justify-center flex-col gap-[60px]'>
             <h1 className='font-medium text-[30px] text-white text-center max-sm:text-[20px]'>{t('service.CardTitle3')}</h1>
             <span className='font-semibold text-[20px] text-white w-[480px] text-center max-sm:w-[300px]'>{t('service.CardPrgf2')}</span>
           </div>
         </div>
         <div>
-          <div className='max-sm:w-[330px] w-[516px] h-[335px] rounded-[20px] bg-[#828282] flex items-center justify-center flex-col gap-[60px]'>
+          <div data-aos="flip-right" data-aos-duration="1000" className='max-sm:w-[330px] w-[516px] h-[335px] rounded-[20px] bg-[#828282] flex items-center justify-center flex-col gap-[60px]'>
             <h1 className='font-medium text-[30px] text-white text-center max-sm:w-[300px] max-sm:text-[20px]'>{t('service.CardTitle4')}</h1>
             <ul>
               <li className='text-white text-[20px] font-semibold'>{t('service.CardList1')}</li>

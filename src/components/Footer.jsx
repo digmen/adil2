@@ -9,7 +9,7 @@ export default function Footer() {
     const { t, i18n } = useTranslation()
 
     return (
-        <div className='flex justify-between px-[40px] pt-[35px]  max-sm:flex-col  max-sm:pb-12' style={{ backgroundImage: `url(${footerBg})`, backgroundSize: 'cover' }}>
+        <div className='flex justify-between px-[40px] pt-[35px]  max-sm:flex-col  max-sm:pb-12 bg-[#000000a4]' style={{ backgroundImage: `url(${footerBg})`, backgroundSize: 'cover' }}>
             <div className='flex flex-col pb-[14px] gap-[1px]  max-sm:items-center'>
                 <Link to='/' className='text-white text-[20px] font-bold'>{t('header.homeLink')}</Link>
                 <Link to='/about' className='text-white text-[20px] font-bold'>{t('header.homeLink2')}</Link>
