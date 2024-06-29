@@ -52,7 +52,7 @@ export default function Home() {
                         <span className='text-[30px] font-medium text-white md:text-[20px]'>{t('home.homeProductCardThree')}</span>
                     </div>
                 </div>
-                <Link className='mt-[52px] bg-[#828282] px-[70px] py-[7px] rounded-[67px] text-white text-[30px] font-medium max-sm:text-[20px]' to='/product' data-aos="fade-up">{t('home.btn1')}</Link>
+                <Link className='hover:bg-white hover:text-black  mt-[52px] bg-[#828282] px-[70px] py-[7px] rounded-[67px] text-white text-[30px] font-medium max-sm:text-[20px]' to='/product' data-aos="fade-up">{t('home.btn1')}</Link>
             </div>
 
             <div className='flex justify-between mx-[125px] mt-[114px] lg:mx-[100px] md:mx-[40px] max-sm:mx-[10px] max-sm:flex-wrap max-sm:justify-center'>
@@ -69,7 +69,7 @@ export default function Home() {
                         </ol>
                     </div>
                     <div className='mt-[50px] max-sm:flex max-sm:justify-center'>
-                        <Link data-aos="fade-down" className='max-sm:text-[20px] max-sm:mt-0 max-sm:mb-[20px] mt-[52px] bg-[#828282] px-[70px] py-[7px] rounded-[67px] text-white text-[30px] font-medium' to='/about'>{t('home.btn2')}</Link>
+                        <Link data-aos="fade-down" className='hover:bg-white hover:text-black  max-sm:text-[20px] max-sm:mt-0 max-sm:mb-[20px] mt-[52px] bg-[#828282] px-[70px] py-[7px] rounded-[67px] text-white text-[30px] font-medium' to='/about'>{t('home.btn2')}</Link>
                     </div>
                 </div>
                 <img data-aos="fade-down" src={homeAboutUsImg} alt='homeAboutUsImg' />
@@ -81,7 +81,7 @@ export default function Home() {
                 <div className='h-[605px] flex flex-col items-center justify-center z-20'>
                     <h1 data-aos="fade-left" className='text-[65px] font-extrabold text-white z-20 max-sm:text-[20px]'>{t('home.homeTitleDown')}</h1>
                     <span data-aos="fade-right" className='text-white text-[34px] font-semibold text-center w-[614px] mt-[108px] z-20 max-sm:text-[16px] max-sm:w-[330px]'>{t('home.homeTitleTextDown')}</span>
-                    <Link data-aos="fade-up" className='max-sm:text-[20px] mt-[52px] bg-[#828282] px-[84px] py-[7px] rounded-[67px] text-white text-[30px] font-medium  z-20' to='/contact'>{t('home.btn3')}</Link>
+                    <Link data-aos="fade-up" className=' hover:bg-white hover:text-black max-sm:text-[20px] mt-[52px] bg-[#828282] px-[84px] py-[7px] rounded-[67px] text-white text-[30px] font-medium  z-20' to='/contact'>{t('home.btn3')}</Link>
                 </div>
             </div>
         </div>
