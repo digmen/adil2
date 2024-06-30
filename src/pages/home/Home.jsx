@@ -55,7 +55,7 @@ export default function Home() {
                 <Link className='hover:bg-white hover:text-black  mt-[52px] bg-[#828282] px-[70px] py-[7px] rounded-[67px] text-white text-[30px] font-medium max-sm:text-[20px]' to='/product' data-aos="fade-up">{t('home.btn1')}</Link>
             </div>
 
-            <div className='flex justify-between mx-[125px] mt-[114px] lg:mx-[100px] md:mx-[40px] max-sm:mx-[10px] max-sm:flex-wrap max-sm:justify-center'>
+            <div className='flex justify-center mx-[125px] mt-[114px] lg:mx-[100px] md:mx-[40px] max-sm:mx-[10px] max-sm:flex-wrap max-sm:justify-center'>
                 <div className='w-[571px] flex flex-col'>
                     <div className='flex flex-col gap-[20px]'>
                         <h1 className='text-[30px] text-white' data-aos="fade-down">{t('home.titleAboutUs')}</h1>
