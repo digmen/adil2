@@ -9,24 +9,31 @@ export default function Footer() {
     const { t, i18n } = useTranslation()
 
     return (
-        <div className='flex justify-between px-[40px] pt-[35px]  max-sm:flex-col  max-sm:pb-12 bg-[#000000a4]' style={{ backgroundImage: `url(${footerBg})`, backgroundSize: 'cover' }}>
-            <div className='flex flex-col pb-[14px] gap-[1px]  max-sm:items-center w-[300px]'>
-                <Link to='/' className='text-white text-[20px] font-bold'>{t('header.homeLink')}</Link>
-                <Link to='/about' className='text-white text-[20px] font-bold'>{t('header.homeLink2')}</Link>
-                <Link to='/product' className='text-white text-[20px] font-bold'>{t('header.homeLink3')}</Link>
-                <Link to='/service' className='text-white text-[20px] font-bold'>{t('header.homeLink4')}</Link>
-                <Link to='/contact' className='text-white text-[20px] font-bold'>{t('header.homeLink5')}</Link>
-            </div>
-            <div className='flex items-center flex-col gap-4 w-[300px]'>
-                <img src={logo} alt='logo' className='w-[77px] h-[69px]' />
-                <Link to='/' className='text-white text-[30px] font-bold'>ALPHA IMPEX</Link>
-            </div>
-            <div className='flex  max-sm:flex-col  max-sm:gap-10  max-sm:items-center w-[300px]'>
-                <div className='w-[290px] flex items-center flex-col'>
-                    <div className='border border-white p-2 w-[210px]'>
-                        <a href='mailto:alphaimpex.org@outlook.com' className='text-white text-[14px] font-bold '>alphaimpex.org@outlook.com</a>
+        <div className='flex justify-between px-[40px] pt-[25px] w-full max-sm:flex-col  max-sm:pb-12 bg-white' style={{ backgroundImage: `url(${footerBg})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
+            <div className='flex w-full justify-between py-[20px]'>
+                <div className='flex items-center flex-col gap-4 w-[243px] h-[188px]'>
+                    <img src={logo} alt='logo' className='w-[77px] h-[69px] fill-white' />
+                </div>
+                <div className='flex gap-[122px]'>
+                    <div className='flex flex-col items-start pb-[14px] gap-[1px] w-[180px]  max-sm:items-center'>
+                        <Link to='/' className='text-white text-[24px] font-medium'>{t('header.homeLink')}</Link>
+                        <Link to='/about' className='text-white text-[24px] font-medium'>{t('header.homeLink2')}</Link>
+                        <Link to='/contact' className='text-white text-[24px] font-medium'>{t('header.homeLink5')}</Link>
+                        <Link to='/product' className='text-white text-[24px] font-medium'>{t('header.homeLink3')}</Link>
+                        <Link to='/service' className='text-white text-[24px] font-medium'>{t('header.homeLink4')}</Link>
                     </div>
-                    <span className='text-white mt-[25px]'>Atakoy 7-8-9-10. Kisim mah. Cobançesme e-5 yan yol cad. A no: 22 /1 Iç Kapi no: 30 bakirkoy/ Istanbul/Turkey</span>
+                    <div className='flex  flex-col items-start gap-[10px]'>
+                        <span className='text-[24px] font-medium text-white'>TELEPHONE NUMBER</span>
+                        <span className='text-[24px] font-medium text-white'>+90 532 987 6543</span>
+                    </div>
+                    <div className='flex flex-col items-start gap-[10px]'>
+                        <span className='text-[24px] font-medium text-white'>EMAIL</span>
+                        <a href='#' className='text-[24px] font-medium text-white'></a>
+                    </div>
+                    <div className='flex flex-col w-[200px] items-start gap-[10px]'>
+                        <span className='text-[24px] font-medium text-white'>ADRESS</span>
+                        <span className='text-[18px] font-medium text-white'>Ziya gokalp mah. Suleyman demirel blv. The office no: 7e ic kapi no: 136 basaksehir/ Istanbul/ Turkiye</span>
+                    </div>
                 </div>
             </div>
         </div>

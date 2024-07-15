@@ -4,11 +4,13 @@
 		"homeLink2": "ABOUT US",
 		"homeLink3": "PRODUCT",
 		"homeLink4": "SERVICES",
-		"homeLink5": "CONTACT"
+		"homeLink5": "CONTACT US"
 	},
 	"home":{
-		"homeTextHero": "Reliable shipping and high-quality products for your comfort and enjoyment!",
-		"titleProduct": "Product Range",
+		"homeTextHero": "Quality That Can Be Trusted",
+		"homeTextHeroPrg": "Create comfort and inspiration with World Innovation Group",
+		"homeTextHeroBtn": "Order Now",
+		"titleProduct": "OUR PRODUCT",
 		"homeProductCardOne": "Household Appliances",
 		"homeProductCardTWo": "Electronics",
 		"homeProductCardThree": "Food Products",

@@ -9,23 +9,25 @@ import TransitionWrapper from './TransitionWrapper'
 
 import Header from './components/Header';
 import Footer from './components/Footer';
+import NotFoundPage from './notfound/NotFoundPage'
 
-import bg from './components/images/bgadil.png'
 
 export default function App() {
   return (
-    <div style={{ backgroundImage: `url(${bg})`, backgroundSize: 'cover' }}>
-      <Header />
+    <>
+      {/* <Header /> */}
       <TransitionWrapper>
         <Routes>
-          <Route path='/' element={<Home />} />
+          <Route path='*' element={<NotFoundPage />} />
+          <Route path='/' element={<NotFoundPage />} />
+          <Route path='/home' element={<Home />} />
           <Route path='/about' element={<AboutUs />} />
           <Route path='/product' element={<Product />} />
           <Route path='/service' element={<Service />} />
           <Route path='/contact' element={<Contact />} />
         </Routes>
       </TransitionWrapper>
-      <Footer />
-    </div>
+      {/* <Footer /> */}
+    </>
   )
 }

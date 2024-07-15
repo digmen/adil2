@@ -1,13 +1,9 @@
 import React, { useEffect } from 'react'
 
 import aboutHeroImage from './images/abouthero.png'
-
-import pricetags from './images/pricetags-sharp.png'
-import caravan from './images/caravan-fill.png'
-import bulding from './images/building-4-fill.png'
-import arrowCircle from './images/arrow-down-circle-fill.png'
-
-import aboutUs from './images/aboutusimgdown.png'
+import aboutImgOne from './images/aboutimgone.png'
+import aboutImgTwo from './images/aboutimgtwo.png'
+import aboutImgThree from './images/aboutimgthree.png'
 
 import { useTranslation } from 'react-i18next'
 
@@ -27,73 +23,76 @@ export default function AboutUs() {
 
   return (
     <div>
-      <div className='h-[479px] relative' style={{ backgroundImage: `url(${aboutHeroImage})`, backgroundSize: 'cover' }}>
-        <div className='absolute bg-[#00000070] h-[479px] w-full z-10'>
-        </div>
-        <div className='h-[479px] flex items-center justify-center z-20'>
-          <span className='text-white text-[65px] font-semibold text-center w-[614px] z-20 max-sm:text-[30px]'>{t('about.aboutTextHero')}</span>
+      <div className='h-[200px]' style={{ backgroundImage: `url(${aboutHeroImage})`, backgroundSize: 'cover' }}>
+        <div className='h-[200px] flex items-center px-[40px]  z-20'>
+          <span className='text-white text-[55px] font-black text-center z-20 max-sm:text-[30px]'>{t('about.aboutTextHero')}</span>
         </div>
       </div>
 
-
-      <div className='flex justify-between mx-[40px] mt-[114px]  max-sm:mx-[15px]  max-sm:mt-[20px]'>
-        <div className='flex flex-col'>
-          <div className='flex flex-col gap-[20px]'>
-            <h1 data-aos="fade-up" data-aos-duration="500" className='text-[30px] text-white'>{t('about.aboutText2')}</h1>
-            <span data-aos="fade-up" data-aos-duration="700" className='text-[30px] text-white  max-sm:text-[18px]'>{t('about.aboutTextPrgf')}</span>
+      <div className='px-[40px] mt-[40px]'>
+        <div className='flex justify-between'>
+          <div className='w-[636px]'>
+            <h1 className='text-[32px] font-bold'>Our Mission</h1>
+            <p className='text-[18px] font-normal'>At World Innovation Group, we strive to create comfort and style in every home, offering our customers the finest solutions for interior and food. Our goal is to inspire and enrich the lives of our customers by providing high-quality textiles, unique interior items, and food products. We believe that every home deserves to be a perfect place for relaxation and self-expression, and thus we continually work to offer products that enhance life and comfort.
+              Join us on our journey to create beautiful and functional spaces that reflect your individuality and style.</p>
           </div>
-          <div className='mt-[30px]'>
-            <ol>
-              <li data-aos="fade-up" data-aos-duration="900" className='flex gap-2 items-center text-white max-sm:text-[20px] text-[30px]'><div className='w-[12px] h-[12px] bg-white rounded-full'></div>{t('about.titleAboutUsList1')}</li>
-              <li data-aos="fade-up" data-aos-duration="1100" className='flex gap-2 items-center text-white max-sm:text-[20px] text-[30px]'><div className='w-[12px] h-[12px] bg-white rounded-full'></div>{t('about.titleAboutUsList2')}</li>
-              <li data-aos="fade-up" data-aos-duration="1300" className='flex gap-2 items-center text-white max-sm:text-[20px] text-[30px]'><div className='w-[12px] h-[12px] bg-white rounded-full'></div>{t('about.titleAboutUsList3')}</li>
-            </ol>
-          </div>
-          <div className='mt-[50px] flex flex-col gap-[37px]'>
-            <h1 data-aos="fade-up" data-aos-duration="1300" className='text-white font-black text-[30px]'>{t('about.aboutText3')}</h1>
-            <p data-aos="fade-up" data-aos-duration="1300" className='text-white font-medium text-[30px]  max-sm:text-[18px]'>{t('about.abouaboutTextPrgf2')}</p>
+          <div className='w-[531px] h-[246px]'>
+            <img className='w-[531px] h-[246px]' src={aboutImgOne} alt='about img' />
           </div>
         </div>
       </div>
 
-      <div className='flex justify-center mt-[50px]'>
-        <div className='flex gap-[102px] max-sm:flex-wrap max-sm:justify-center max-sm:gap-[50px]'>
-          <div className='flex flex-col'>
-            <div className='flex flex-col items-center' data-aos="zoom-in-right">
-              <img className='w-[200px] h-[180px] md:w-[150px] md:h-[130px]  max-sm:h-[130px] max-sm:w-[150px]' src={pricetags} />
-              <span className='text-white text-[30px] font-extrabold md:text-[20px] max-sm:text-[20px]'>{t('about.aboutTextCard1')}</span>
-            </div>
-            <div className='flex flex-col items-center' data-aos="zoom-in-right">
-              <img className='w-[200px] h-[180px] md:w-[150px] md:h-[130px] max-sm:h-[130px] max-sm:w-[150px]' src={caravan} />
-              <span className='text-white text-[30px] font-extrabold md:text-[20px]  max-sm:text-[20px]'>{t('about.aboutTextCard2')}</span>
-            </div>
+      <div className='px-[40px] mt-[100px]'>
+        <div className='flex flex-row-reverse justify-between'>
+          <div className='w-[636px]'>
+            <h1 className='text-[32px] font-bold'>Our Philosophy</h1>
+            <p className='text-[18px] font-normal'>The philosophy of our company is based on three main principles: honesty, transparency and constant pursuit of excellence. We believe in the importance of open and honest relationships with our customers and partners. Our goal is to ensure maximum customer satisfaction by providing them with only the best products and services. We are constantly striving to improve all aspects of our business.</p>
           </div>
-          <div className='flex flex-col'>
-            <div className='flex flex-col items-center' data-aos="zoom-in-left">
-              <img className='w-[200px] h-[180px] md:w-[150px] md:h-[130px] max-sm:h-[130px] max-sm:w-[150px]' src={bulding} />
-              <span className='text-white text-[30px] font-extrabold md:text-[20px]  max-sm:text-[20px]'>{t('about.aboutTextCard3')}</span>
-            </div>
-            <div className='flex flex-col items-center' data-aos="zoom-in-left">
-              <img className='w-[200px] h-[180px] md:w-[150px] md:h-[130px] max-sm:h-[130px] max-sm:w-[150px]' src={arrowCircle} />
-              <span className='text-white text-[30px] font-extrabold md:text-[20px]  max-sm:text-[20px]'>{t('about.aboutTextCard4')}</span>
-            </div>
+          <div className='w-[531px] h-[204px]'>
+            <img className='w-[531px] h-[204px]' src={aboutImgTwo} alt='about img' />
           </div>
         </div>
       </div>
 
 
-      <div className='h-[605px] relative mt-[40px]  flex flex-col  justify-center gap-6' style={{ backgroundImage: `url(${aboutUs})`, backgroundRepeat: 'repeat', width: '100%', backgroundSize: 'cover' }}>
-        <div className='absolute bg-[#0000009e] h-[605px] w-full z-10'>
+      <div className='mt-[60px] px-[40px] flex flex-col'>
+        <div className='flex justify-center'>
+          <h1 className='text-[32px] font-bold'>Our Values</h1>
         </div>
-        <div className=' flex flex-col gap-[17px] px-[40px] z-20 max-sm:px-[16px]'>
-          <h1 data-aos="fade-up" className='text-[30px] font-black text-white z-20 max-sm:text-[20px]'>{t('about.aboutTitleDown')}</h1>
-          <span data-aos="fade-up" className='text-white text-[30px] font-semibold z-20 md:text-[20px] max-sm:text-[16px]'> {t('about.aboutTitleDownPrgf')}</span>
-        </div>
-        <div className=' flex flex-col gap-[17px]  px-[40px] z-20 max-sm:px-[16px]'>
-          <h1 data-aos="fade-up" className='text-[30px] font-black text-white z-20 max-sm:text-[20px]'>{t('about.aboutTitleDown2')}</h1>
-          <span data-aos="fade-up" className='text-white text-[30px] font-semibold z-20 md:text-[20px] max-sm:text-[16px]'> {t('about.aboutTitleDownPrgf2')}</span>
+        <div className='mt-[30px] flex flex-wrap justify-center gap-[30px]'>
+          <div className='w-[350px] h-[253px] bg-[#CBCBCB] rounded-[25px] flex justify-center items-center'>
+            <div className='px-[50px] py-[22px] flex flex-col gap-[10px]'>
+              <h1 className='font-bold text-[26px]'>Dynamism</h1>
+              <span className='font-light text-[16px]'>We evolve with the fast pace of e commerce. We detect the latest trends and we take risks. So that our customers are satisfied and continue to cooperate with us</span>
+            </div>
+          </div>
+          <div className='w-[350px] h-[253px] bg-[#CBCBCB] rounded-[25px] flex justify-center items-center'>
+            <div className='px-[50px] py-[22px] flex flex-col gap-[10px]'>
+              <h1 className='font-bold text-[26px]'>Innovation</h1>
+              <span className='font-light text-[16px]'>Innovation is the core of our strategy. We innovate in technology, logistics, operations and we constantly optimise our processes.</span>
+            </div>
+          </div>
+          <div className='w-[350px] h-[253px] bg-[#CBCBCB] rounded-[25px] flex justify-center items-center'>
+            <div className='px-[50px] py-[22px] flex flex-col gap-[10px]'>
+              <h1 className='font-bold text-[26px]'>Passion For Ecommerce</h1>
+              <span className='font-light text-[16px]'>We are passionate about online, multi-channel and international selling. And we always do it with sustainability as a priority.</span>
+            </div>
+          </div>
         </div>
       </div>
+
+      <div className='px-[40px] mt-[100px] bg-[#FFCE33]'>
+        <div className='flex justify-between py-[50px]'>
+          <div className='w-[636px] flex flex-col gap-[20px]'>
+            <h1 className='text-[32px] font-bold'>Our Story</h1>
+            <p className='text-[18px] font-normal'>We founded our company with the aim of connecting manufacturers with customers. Starting with a small amount of capital, we signed contracts with large manufacturers and significantly increased the volume of orders. The opening of offices and warehouses allowed us to reduce the delivery time. Today we are the market leader, introducing the latest technologies and constantly expanding our geographical presence and customer service capabilities.</p>
+          </div>
+          <div className='w-[531px] h-[246px]'>
+            <img className='w-[531px] h-[246px]' src={aboutImgThree} alt='about img' />
+          </div>
+        </div>
+      </div>
+
     </div>
   )
 }
