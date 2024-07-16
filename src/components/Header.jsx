@@ -21,7 +21,7 @@ export default function Header() {
     const [modal, setModal] = useState(false)
 
     return (
-        <div className='h-[125px] flex justify-between  pt-[4px] px-[40px] relative bg-white max-sm:px-4'>
+        <div className='h-[125px] flex justify-between  pt-[4px] px-[40px] relative bg-white max-sm:px-4 shadow-[0_2px_33px_0px_rgba(0,0,0,0.8)]'>
             <div className='flex items-center justify-center'>
                 <img src={logo} alt='logo' className='w-[77px] h-[69px]' />
             </div>

@@ -1,82 +1,250 @@
 {
   "header": {
-    "homeLink": "EV",
-    "homeLink2": "HAKKIMIZDA",
-    "homeLink3": "ÜRÜN",
-    "homeLink4": "HİZMETLER",
-    "homeLink5": "TEMAS ETMEK"
+    "homeLink": "HEIM",
+    "homeLink2": "ÜBER UNS",
+    "homeLink3": "PRODUKT",
+    "homeLink4": "DIENSTLEISTUNGEN",
+    "homeLink5": "KONTAKTIERE UNS"
   },
   "home": {
-    "homeTextHero": "Konforunuz ve keyfiniz için güvenilir nakliye ve kaliteli ürünler!",
-    "titleProduct": "Ürün yelpazesi",
-    "homeProductCardOne": "Ev aletleri",
-    "homeProductCardTWo": "Elektronik",
-    "homeProductCardThree": "Gıda Ürünleri",
-    "btn1": "Daha Fazla Ürün",
-    "titleAboutUs": "Hakkımızda",
-    "titleAboutUsPrgf": "Yük taşımacılığında ve çeşitli malların satışında güvenilir ortağınız Alpha Impex'e hoş geldiniz. ",
-    "titleAboutUsList1": "Elektrikli Ürün",
-    "titleAboutUsList2": "Ev aletleri",
-    "titleAboutUsList3": "Gıda Ürünleri",
-    "btn2": "Daha fazlasını bul",
-    "homeTitleDown": "Soru?",
-    "homeTitleTextDown": "Konforunuz ve keyfiniz için güvenilir nakliye ve kaliteli ürünler!",
-    "btn3": "Bize Ulaşın"
+    "homeTextHero": "Willkommen in unserem Geschäft",
+    "homeTextHeroPrg": "Entdecken Sie eine große Auswahl an hochwertigen Produkten",
+    "homeTextHeroBtn": "Jetzt einkaufen",
+    "stats": {
+      "items": "Artikel",
+      "brands": "Marken",
+      "clients": "Fröhliche Kunden"
+    },
+    "products": {
+      "title": "Unser Produkt",
+      "categories": {
+        "carAndMotorbike": {
+          "title": "Auto und Motorrad",
+          "description": "Die Reparatur und Wartung von Autos und Motorrädern erfordert hochwertige Ersatzteile und Werkzeuge. "
+        },
+        "electronics": {
+          "title": "Elektronik",
+          "description": "Elektronik für Zuhause und Büro vereinfacht unser Leben erheblich und erhöht den Komfort und die Produktivität. "
+        },
+        "diyAndTools": {
+          "title": "Heimwerken und Werkzeuge",
+          "description": "Das Unternehmen World Innovation Group bietet eine große Auswahl an Werkzeugen und Materialien für DIY-Projekte. "
+        },
+        "clothing": {
+          "title": "Kleidung",
+          "description": "Unser Unternehmen bietet ein breites Sortiment an modischer und hochwertiger Bekleidung für alle Anlässe und Jahreszeiten. "
+        },
+        "computing": {
+          "title": "Computer",
+          "description": "Das Unternehmen World Innovation Group bietet alles, was Sie für Ihren Computerbedarf benötigen. "
+        },
+        "textile": {
+          "title": "Textil",
+          "description": "Das Unternehmen World Innovation Group bietet eine breite Palette an Textilprodukten für unterschiedliche Bedürfnisse. "
+        },
+        "houseAppliances": {
+          "title": "Haushaltsgeräte",
+          "description": "Das Unternehmen World Innovation Group bietet ein breites Sortiment an Haushaltsgeräten für Ihr Zuhause. "
+        },
+        "foodProducts": {
+          "title": "Lebensmittel",
+          "description": "Das Unternehmen World Innovation Group bietet eine Vielzahl hochwertiger Lebensmittelprodukte an. "
+        }
+      },
+      "moreBtn": "Mehr"
+    },
+    "aboutUs": {
+      "title": "Über uns",
+      "description": "Unser Unternehmen ist auf den Großhandel mit hochwertigen Textilien, Haushaltswaren und Lebensmitteln spezialisiert. ",
+      "learnMoreBtn": "Erfahren Sie mehr"
+    },
+    "brands": {
+      "brend1": "Marke 1",
+      "brend2": "Marke 2",
+      "brend3": "Marke 3",
+      "brend4": "Marke 4",
+      "brend5": "Marke 5"
+    }
   },
   "about": {
-    "aboutTextHero": "HAKKIMIZDA",
-    "aboutText2": "Hakkımızda",
-    "aboutTextPrgf": "Yük taşımacılığında ve çeşitli malların satışında güvenilir ortağınız Alpha Impex'e hoş geldiniz. ",
-    "titleAboutUsList1": "Elektrikli Ürün",
-    "titleAboutUsList2": "Ev aletleri",
-    "titleAboutUsList3": "Gıda Ürünleri",
-    "aboutText3": "Şirketimizle ortak olmanın faydaları",
-    "abouaboutTextPrgf2": "Güvenilir, uzun vadeli ortaklıklar arıyoruz ve uygun işbirliği koşulları sunuyoruz. ",
-    "aboutTextCard1": "REKABETÇİ FİYAT",
-    "aboutTextCard2": "GENİŞ SEÇİM",
-    "aboutTextCard3": "RAHAT TESLİMAT",
-    "aboutTextCard4": "KALİTE ODAKLILIK",
-    "aboutTitleDown": "NEREDE BULUYORUZ",
-    "aboutTitleDownPrgf": "Elverişli konumumuz nedeniyle dünyanın geri kalanına kara, deniz ve hava yoluyla verimli bir şekilde teslimat yapıyoruz. ",
-    "aboutTitleDown2": "HEDEFLERİMİZ VE MİSYONUMUZ",
-    "aboutTitleDownPrgf2": "Müşterilerimize ortak olarak öncelik veriyoruz, uzun vadeli işbirliğini ve güvenilir ilişkileri vurguluyoruz. "
+    "aboutTextHero": "Über uns",
+    "ourMission": {
+      "title": "Unsere Aufgabe",
+      "description": "Bei der World Innovation Group sind wir bestrebt, Komfort und Stil in jedem Zuhause zu schaffen und unseren Kunden die besten Lösungen für Inneneinrichtung und Essen zu bieten. "
+    },
+    "ourPhilosophy": {
+      "title": "Unsere Philosophie",
+      "description": "Die Philosophie unseres Unternehmens basiert auf drei Hauptprinzipien: Ehrlichkeit, Transparenz und ständiges Streben nach Exzellenz. "
+    },
+    "ourValues": {
+      "title": "Unsere Werte",
+      "dynamism": {
+        "title": "Dynamik",
+        "description": "Wir entwickeln uns mit der rasanten Geschwindigkeit des E-Commerce weiter. "
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "Innovation ist der Kern unserer Strategie. "
+      },
+      "passionForEcommerce": {
+        "title": "Leidenschaft für E-Commerce",
+        "description": "Unsere Leidenschaft gilt dem Online-, Multi-Channel- und internationalen Verkauf. "
+      }
+    },
+    "ourStory": {
+      "title": "Unsere Geschichte",
+      "description": "Wir haben unser Unternehmen mit dem Ziel gegründet, Hersteller mit Kunden zu verbinden. "
+    }
   },
   "product": {
-    "productHeroTitle": "ÜRÜN",
-    "productTitle2": "Neden bizi seçmelisiniz?",
-    "productList1": "Üst düzey tedarikçilerle kurduğumuz ortaklıklar aracılığıyla rekabetçi fiyatlandırmanın avantajlarından yararlanın.",
-    "productList2": "İhtiyaçlarınıza uygun geniş ürün yelpazesini keşfedin.",
-    "productList3": "Kapınıza kadar rahat küresel teslimatın keyfini çıkarın.",
-    "productList4": "Başarımızın temelinde kaliteli hizmete ve kapsamlı satış sonrası desteğe olan bağlılığımız yatmaktadır.",
-    "productCardText1": "REKABETÇİ FİYAT",
-    "productCardText2": "GENİŞ SEÇİM",
-    "productCardText3": "RAHAT TESLİMAT",
-    "productCardText4": "KALİTE ODAKLILIK",
-    "productCardTitle1": "Ev Aletleri",
-    "productCardTextPrgf1": "Önde gelen küresel markalardan geniş bir ev aletleri yelpazesi sunuyoruz. ",
-    "productCardTitle2": "Elektronik",
-    "productCardTextPrgf2": "Ürün yelpazemiz, hızla değişen teknoloji dünyasında önde kalmanıza yardımcı olan modern gadget'lar, bilgisayarlar, telefonlar ve diğer elektronik cihazları içerir.",
-    "productCardTitle3": "Gıda Ürünleri",
-    "productCardTextPrgf3": "Sağlığınızı ön planda tutuyoruz ve yalnızca en taze ve en kaliteli gıda ürünlerini sunuyoruz. ",
-    "productDownTitle1": "Şirketimiz esnek bir teslimat sistemi, malların güvenilir şekilde depolanması ve üst düzey müşteri hizmetleri sunmaktadır. ",
-    "productDownTitle2": "Bugün bize katılın ve hizmetlerimizin ve ürünlerimizin kalitesini ilk elden deneyimleyin! "
+    "productTextHero": "Produkt",
+    "whyChooseUs": {
+      "title": "Warum uns wählen",
+      "description": "Wir bieten hochwertige Produkte in drei Hauptkategorien an: Textilien, Haushaltswaren und Lebensmittel. ",
+      "qualities": [
+        "Qualität: Wir arbeiten nur mit vertrauenswürdigen Lieferanten zusammen und gewährleisten so hohe Standards für jede Produktionseinheit.",
+        "Vielfalt: Eine breite Produktpalette ermöglicht es Ihnen, unterschiedlichen Bedürfnissen und Geschmäckern gerecht zu werden.",
+        "Vertrauen: Wir legen Wert auf langfristige Beziehungen zu Kunden und Partnern, indem wir zuverlässige und effektive Lösungen anbieten."
+      ]
+    },
+    "mostPopularProduction": {
+      "title": "Beliebteste Produktion",
+      "categories": [
+        {
+          "title": "Auto und Motorrad",
+          "items": [
+            "Auto- und Motorradpflege",
+            "Auto Zubehör",
+            "Autoteile",
+            "Autowerkzeuge"
+          ]
+        },
+        {
+          "title": "Elektronik",
+          "items": [
+            "Batterien und Ladegeräte",
+            "Abrichttechnik",
+            "Hi-Fi-Ausrüstung"
+          ]
+        },
+        {
+          "title": "Kleidung",
+          "items": [
+            "Frauen",
+            "Baby",
+            "Jungen",
+            "Männer"
+          ]
+        },
+        {
+          "title": "Heimwerken und Werkzeuge",
+          "items": [
+            "Baumaschinen",
+            "Heimorganisation",
+            "Baumaterialien",
+            "Elektroverkabelung"
+          ]
+        },
+        {
+          "title": "Computer",
+          "items": [
+            "Zubehör",
+            "Blanke Knochen",
+            "Verkabelung und Konnektivität",
+            "Komponenten"
+          ]
+        },
+        {
+          "title": "Textil",
+          "items": [
+            "Baumwolle",
+            "Leinen",
+            "Wolle",
+            "Seide"
+          ]
+        },
+        {
+          "title": "Haushaltsgeräte",
+          "items": [
+            "Dekorationsmaterialien",
+            "Bier- und Weinproduktion",
+            "Backen",
+            "Bad"
+          ]
+        },
+        {
+          "title": "Lebensmittel",
+          "items": [
+            "Aperitifs",
+            "Bäckerei und Konditorei",
+            "Biere, Weine und Spirituosen",
+            "Cerealien und Müsli"
+          ]
+        }
+      ]
+    }
   },
   "service": {
-    "serviceHeroTitle": "SERVİSİMİZ",
-    "CardTitle": "Jeff Bezos: 'Müşterilerimizi bir partiye davet edilen misafirler olarak görüyoruz ve ev sahibi biziz. ",
-    "CardTitle2": "Lojistik",
-    "CardPrgf1": "Gerektiğinde parçaların mevcut olmaması veya üretimden kaldırılması durumunda, gereksinimlerinize tam olarak uyan alternatif markalardan uygun yedek parçaları bulmak için teknik destek sunuyoruz.",
-    "CardTitle3": "Mevcut ürünler için alternatif seçeneklerin araştırılması",
-    "CardPrgf2": "Küresel ürün tedariki stresli olabilir ancak bize güvenebilirsiniz! ",
-    "CardTitle4": "Ulaşım bilgi aktarım altyapısı",
-    "CardList1": "1.Yerel Ağ",
-    "CardList2": "2.Kurumsal ağ",
-    "CardList3": "3.Ağ veri merkezi"
+    "heroText": "Dienstleiistungen",
+    "whyServiceBest": {
+      "title": "Warum ist unser Service der Beste?",
+      "description": "Wir sind stolz darauf, unseren Kunden einen außergewöhnlichen Service zu bieten, der uns von unseren Mitbewerbern abhebt. ",
+      "points": [
+        "Individueller Ansatz: Wir verstehen, dass jeder Kunde einzigartig ist und bieten personalisierte Lösungen an, die auf Ihre spezifischen Bedürfnisse und Erwartungen zugeschnitten sind.",
+        "Professioneller Support: Unser Expertenteam steht Ihnen jederzeit bei Fragen zur Seite und gibt Ihnen qualifizierte Empfehlungen zur Produktauswahl.",
+        "Schnelle und zuverlässige Lieferung: Wir sorgen für eine pünktliche Lieferung der Waren, sodass Sie sich in jeder Situation auf uns verlassen können.",
+        "Qualitätssicherung: Wir stehen hinter der Qualität unserer Produkte und Dienstleistungen und bieten Garantien und bei Bedarf die Möglichkeit einer Rückerstattung.",
+        "Flexible Bedingungen der Zusammenarbeit: Wir sind bestrebt, unsere Zusammenarbeit für Sie bequem und profitabel zu gestalten, indem wir flexible Zahlungsbedingungen und maßgeschneiderte Angebote anbieten."
+      ],
+      "imageAlt": "über img"
+    },
+    "advantagesTitle": "Vorteile einer Zusammenarbeit mit uns",
+    "advantages": [
+      {
+        "title": "Gute Qualität",
+        "description": "Produkte von vertrauenswürdigen und zertifizierten Herstellern."
+      },
+      {
+        "title": "Große Auswahl",
+        "description": "Produkte für alle Bedürfnisse und Vorlieben."
+      },
+      {
+        "title": "Wettbewerbsfähige Preise",
+        "description": "Tolle Angebote, flexibles Rabattsystem und regelmäßige Aktionen."
+      },
+      {
+        "title": "Professionelle Unterstützung",
+        "description": "Beratung und Unterstützung durch qualifizierte Fachkräfte."
+      },
+      {
+        "title": "Schnelle Lieferung",
+        "description": "Prompte Lieferung und günstige Zahlungsbedingungen."
+      },
+      {
+        "title": "Zuverlässigkeit und Vertrauen",
+        "description": "Langfristige Beziehungen und eine individuelle Herangehensweise an jeden Kunden."
+      }
+    ],
+    "goalText": "Unser Ziel ist es, Ihre Erwartungen zu übertreffen und die Zusammenarbeit mit uns so angenehm und effizient wie möglich zu gestalten. "
   },
   "contact": {
-    "contactHeroTitle": "BİZE ULAŞIN",
-    "text1": "Bizi şu adreste bulabilirsiniz:",
-    "text2": "TELEFON NUMARASI:",
-    "text3": "KONUM:"
+    "contactTextHero": "KONTAKTIERE UNS",
+    "methods": [
+      {
+        "title": "EMAIL",
+        "details": "",
+        "color": "#CBCBCB"
+      },
+      {
+        "title": "TELEFON",
+        "details": "+90 532 987 6543",
+        "color": "#FFCE33"
+      },
+      {
+        "title": "ADRESSE",
+        "details": "Ziya Gokalp Mah. ",
+        "color": "#0090FF"
+      }
+    ]
   }
 }

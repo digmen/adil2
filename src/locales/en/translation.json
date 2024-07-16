@@ -6,79 +6,245 @@
 		"homeLink4": "SERVICES",
 		"homeLink5": "CONTACT US"
 	},
-	"home":{
-		"homeTextHero": "Quality That Can Be Trusted",
-		"homeTextHeroPrg": "Create comfort and inspiration with World Innovation Group",
-		"homeTextHeroBtn": "Order Now",
-		"titleProduct": "OUR PRODUCT",
-		"homeProductCardOne": "Household Appliances",
-		"homeProductCardTWo": "Electronics",
-		"homeProductCardThree": "Food Products",
-		"btn1": "More Product",
-		"titleAboutUs": "About Us",
-		"titleAboutUsPrgf": "Welcome to Alpha Impex – your reliable partner in freight transportation and the sale of various goods. We specialize in providing high-quality delivery and sales services in the following categories:",
-		"titleAboutUsList1": "Electric Product",
-		"titleAboutUsList2": "Household Appliances",
-		"titleAboutUsList3": "Food Products",
-		"btn2": "Find Out More",
-		"homeTitleDown": "Question?",
-		"homeTitleTextDown": "Reliable shipping and high-quality products for your comfort and enjoyment!",
-		"btn3": "Contact Us"
-	},
-	"about":{
-		"aboutTextHero": "ABOUT US",
-		"aboutText2": "About Us",
-		"aboutTextPrgf": "Welcome to Alpha Impex – your reliable partner in freight transportation and the sale of various goods. We specialize in providing high-quality delivery and sales services in the following categories:",
-		"titleAboutUsList1": "Electric Product",
-		"titleAboutUsList2": "Household Appliances",
-		"titleAboutUsList3": "Food Products",
-		"aboutText3": "Benefits of partnering with our company",
-		"abouaboutTextPrgf2": "We seek reliable, long-term partnerships and offer favorable terms for cooperation. Equipment failures and operational disruptions can significantly impact business operations. ALPHA IMPEX provides seamless access to a global inventory of products, helping manufacturers worldwide minimize downtime. Our customers benefit from a broad range of products, quality services, and strategic, sustainable solutions tailored to their needs.",
-		"aboutTextCard1": "COMPETITIVE PRICE",
-		"aboutTextCard2": "WIDE SELECTION",
-		"aboutTextCard3": "CONVENIENT DELIVERY",
-		"aboutTextCard4": "QUALITY ORIENTATION",
-		"aboutTitleDown": "WHERE WE LOCATE",
-		"aboutTitleDownPrgf": "Due to our convenient location, we efficiently deliver to the rest of the world by land, sea, and air. Currently we are serving customers in over 50 countries.",
-		"aboutTitleDown2": "OUR GOALS AND MISSION",
-		"aboutTitleDownPrgf2": "We prioritize our customers as partners, stressing long-term collaboration and reliable relationships. Our focus is on delivering advanced solutions that foster growth, extending beyond mere product supply to include resolving associated challenges. ALPHA IMPEX places a strong emphasis on upholding professional standards and continuously enhancing our technical department through training."
-	},
-	"product":{
-		"productHeroTitle":"PRODUCT",
-		"productTitle2":"Why choose us?",
-		"productList1":"Take advantage of competitive pricing through our established partnerships with top-tier suppliers.",
-		"productList2":"Explore a wide array of products to suit your needs.",
-		"productList3":"Enjoy convenient global delivery to your doorstep.",
-		"productList4":"Our dedication to quality service and thorough aftersales support is at the core of our success",
-		"productCardText1":"COMPETITIVE PRICE",
-		"productCardText2":"WIDE SELECTION",
-		"productCardText3":"CONVENIENT DELIVERY",
-		"productCardText4":"QUALITY ORIENTATION",
-		"productCardTitle1":"Home Appliances",
-		"productCardTextPrgf1":"We offer a wide range of household appliances from leading global brands. Whether you need a new washing machine, refrigerator, or small kitchen appliance, we are always ready to provide the optimal solution for your needs.",
-		"productCardTitle2":"Electronics",
-		"productCardTextPrgf2":"Our range includes modern gadgets, computers, phones, and other electronic devices that help you stay ahead in a rapidly changing world of technology.",
-		"productCardTitle3":"Food Products",
-		"productCardTextPrgf3":"We prioritize your well-being and provide only the freshest and highest quality food products. Whether you're looking for a variety of meats, cheeses, fresh produce, or specialty ingredients, you'll find everything you need for your culinary creations with us.",
-		"productDownTitle1":"Our company provides a flexible delivery system, reliable storage of goods, and high-level customer service. We take pride in our reputation as a reliable partner capable of meeting the most demanding needs of our customers.",
-		"productDownTitle2":"Join us today and experience the quality of our services and products firsthand! If you have any questions or need further information, please feel free to contact us – we are always happy to help."
-	},
-	"service":{
-		"serviceHeroTitle":"OUR SERVICE",
-		"CardTitle":"Jeff Bezos: 'We see our customers as invited guests to a party, and we are the hosts. It’s our job every day to make every important aspect of the customer experience a little bit better.'",
-		"CardTitle2":"Logistics",
-		"CardPrgf1":"If necessary, parts are unavailable or discontinued, we offer technical support to find suitable replacements from alternative brands that match your requirements precisely.",
-		"CardTitle3":"Exploring alternative options for current products",
-		"CardPrgf2":"Global product sourcing can be stressful, but you can trust us! Our extensive experience in the market has enabled us to develop efficient and expedient delivery processes.",
-		"CardTitle4":"Transport information transfer infrastructure",
-		"CardList1":"1.Local Network",
-		"CardList2":"2.Corporate network",
-		"CardList3":"3.Network data center"
-	},
-	"contact":{
-		"contactHeroTitle":"CONTACT US",
-		"text1":"You can find us at:",
-		"text2":"PHONE NUMBER:",
-		"text3":"LOCATION:"
-	}
+	"home": {
+    "homeTextHero": "Welcome to Our Store",
+    "homeTextHeroPrg": "Discover a wide range of high-quality products",
+    "homeTextHeroBtn": "Shop Now",
+    "stats": {
+      "items": "Items",
+      "brands": "Brands",
+      "clients": "Glad Clients"
+    },
+    "products": {
+      "title": "Our Product",
+      "categories": {
+        "carAndMotorbike": {
+          "title": "Car And Motorbike",
+          "description": "The repair and maintenance of cars and motorcycles requires high-quality spare parts and tools. The company [Company Name] provides everything you need to keep your transport in excellent condition. We guarantee high quality, a wide range and affordable prices for all products. Contact us for professional advice and selection of necessary spare parts."
+        },
+        "electronics": {
+          "title": "Electronics",
+          "description": "Electronics for home and office greatly simplify our lives and increase comfort and productivity. The company [Company name] offers a wide range of high-quality and reliable products that will satisfy all your needs. Contact us for professional advice and selection of the necessary equipment."
+        },
+        "diyAndTools": {
+          "title": "DIY And Tools",
+          "description": "The company World Innovation Group offers a wide range of tools and materials for DIY projects. Here you will find everything you need for repairs, construction and creativity. We guarantee high quality, affordable prices and professional support. Contact us to make your DIY ideas a reality."
+        },
+        "clothing": {
+          "title": "Clothing",
+          "description": "Our company offers a wide range of fashionable and high-quality clothing for all occasions and seasons. Here you will find everything you need to create the perfect wardrobe — from everyday items to elegant outfits. We guarantee high quality materials, a variety of styles and affordable prices."
+        },
+        "computing": {
+          "title": "Computing",
+          "description": "The company World Innovation Group offers everything you need for your computing needs. Our product range includes high-quality computers, accessories and software. We provide high quality, competitive prices and professional support. Contact us to find the perfect solutions for your computing and IT tasks."
+        },
+        "textile": {
+          "title": "Textile",
+          "description": "The company World Innovation Group offers a wide range of textile products for various needs. Here you will find high-quality fabrics, materials and finished products for home, office and fashion. We guarantee excellent quality, affordable prices and professional service. Contact us to update and decorate your space with our textile products."
+        },
+        "houseAppliances": {
+          "title": "House Appliances",
+          "description": "The company World Innovation Group offers a wide range of household appliances for your home. Here you will find high-quality and reliable devices for the kitchen, cleaning and comfort. We guarantee high quality, affordable prices and professional service. Contact us to make your home cozy and modern with the help of our household appliances."
+        },
+        "foodProducts": {
+          "title": "Food Products",
+          "description": "The company World Innovation Group offers a variety of high-quality food products. Here you will find fresh and natural products that will satisfy any taste preferences. We guarantee affordable prices and professional service. Contact us to fill your table with delicious and healthy food."
+        }
+      },
+      "moreBtn": "More"
+    },
+    "aboutUs": {
+      "title": "About Us",
+      "description": "Our company specializes in wholesale sales of high-quality textiles, home goods, and food products. We strive to offer only the best items, carefully selected from trusted suppliers. Our approach is based on meeting customer needs and providing the highest level of service. With us, you get not just products, but a reliable partner for your business. Join our satisfied customers and experience the difference!",
+      "learnMoreBtn": "Learn More"
+    },
+    "brands": {
+      "brend1": "Brand 1",
+      "brend2": "Brand 2",
+      "brend3": "Brand 3",
+      "brend4": "Brand 4",
+      "brend5": "Brand 5"
+    }
+  },
+	"about": {
+    "aboutTextHero": "About Us",
+    "ourMission": {
+      "title": "Our Mission",
+      "description": "At World Innovation Group, we strive to create comfort and style in every home, offering our customers the finest solutions for interior and food. Our goal is to inspire and enrich the lives of our customers by providing high-quality textiles, unique interior items, and food products. We believe that every home deserves to be a perfect place for relaxation and self-expression, and thus we continually work to offer products that enhance life and comfort. Join us on our journey to create beautiful and functional spaces that reflect your individuality and style."
+    },
+    "ourPhilosophy": {
+      "title": "Our Philosophy",
+      "description": "The philosophy of our company is based on three main principles: honesty, transparency, and constant pursuit of excellence. We believe in the importance of open and honest relationships with our customers and partners. Our goal is to ensure maximum customer satisfaction by providing them with only the best products and services. We are constantly striving to improve all aspects of our business."
+    },
+    "ourValues": {
+      "title": "Our Values",
+      "dynamism": {
+        "title": "Dynamism",
+        "description": "We evolve with the fast pace of e-commerce. We detect the latest trends and take risks so that our customers are satisfied and continue to cooperate with us."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "Innovation is the core of our strategy. We innovate in technology, logistics, operations, and constantly optimize our processes."
+      },
+      "passionForEcommerce": {
+        "title": "Passion For Ecommerce",
+        "description": "We are passionate about online, multi-channel, and international selling. And we always do it with sustainability as a priority."
+      }
+    },
+    "ourStory": {
+      "title": "Our Story",
+      "description": "We founded our company with the aim of connecting manufacturers with customers. Starting with a small amount of capital, we signed contracts with large manufacturers and significantly increased the volume of orders. The opening of offices and warehouses allowed us to reduce the delivery time. Today we are the market leader, introducing the latest technologies and constantly expanding our geographical presence and customer service capabilities."
+    }
+  },
+	"product": {
+    "productTextHero": "Product",
+    "whyChooseUs": {
+      "title": "Why choose us",
+      "description": "We offer high-quality products in three key categories: textiles, household goods and food. Each area has its own advantages, but they are united by one thing – our commitment to excellence and customer satisfaction.",
+      "qualities": [
+        "Quality: We work only with trusted suppliers, ensuring high standards for each unit of production.",
+        "Variety: A wide range of products allows you to meet a variety of needs and tastes.",
+        "Trust: We value long-term relationships with customers and partners by offering reliable and effective solutions."
+      ]
+    },
+    "mostPopularProduction": {
+      "title": "Most Popular Production",
+      "categories": [
+        {
+          "title": "Car And Motorbike",
+          "items": [
+            "Car and motorbike care",
+            "Car accessories",
+            "Car parts",
+            "Car tools"
+          ]
+        },
+        {
+          "title": "Electronics",
+          "items": [
+            "Batteries and chargers",
+            "Dressing technology",
+            "Hi-Fi equipment"
+          ]
+        },
+        {
+          "title": "Clothing",
+          "items": [
+            "Women",
+            "Baby",
+            "Boys",
+            "Men"
+          ]
+        },
+        {
+          "title": "DIY And Tools",
+          "items": [
+            "Building machinery",
+            "Home organisation",
+            "Building supplies",
+            "Electrical wiring"
+          ]
+        },
+        {
+          "title": "Computing",
+          "items": [
+            "Accessories",
+            "Barebones",
+            "Cabling and connectivity",
+            "Components"
+          ]
+        },
+        {
+          "title": "Textile",
+          "items": [
+            "Cotton",
+            "Linen",
+            "Wool",
+            "Silk"
+          ]
+        },
+        {
+          "title": "House Appliances",
+          "items": [
+            "Decorative materials",
+            "Beer and wine production",
+            "Baking",
+            "Bath"
+          ]
+        },
+        {
+          "title": "Food Products",
+          "items": [
+            "Aperitifs",
+            "Bakery and pastries",
+            "Beers, wines and spirits",
+            "Cereals and muesli"
+          ]
+        }
+      ]
+    }
+  },
+	 "service": {
+    "heroText": "Service",
+    "whyServiceBest": {
+      "title": "Why is our service the best",
+      "description": "We are proud to provide our customers with an exceptional service that sets us apart from our competitors. Our service approach includes the following key aspects:",
+      "points": [
+        "Individual approach: We understand that each client is unique and offer personalized solutions tailored to your specific needs and expectations.",
+        "Professional support: Our team of experts is always ready to help you with any questions and provide qualified recommendations on the choice of products.",
+        "Fast and reliable delivery: We ensure timely delivery of goods so that you can count on us in any situation.",
+        "Quality Assurance: We stand behind the quality of our products and services, offering guarantees and the possibility of a refund if necessary.",
+        "Flexible terms of cooperation: We strive to make our cooperation convenient and profitable for you by offering flexible payment terms and customized offers."
+      ],
+      "imageAlt": "about img"
+    },
+    "advantagesTitle": "Advantages of working with us",
+    "advantages": [
+      {
+        "title": "High quality",
+        "description": "Products from trusted and certified manufacturers."
+      },
+      {
+        "title": "Wide range",
+        "description": "Products for all needs and preferences."
+      },
+      {
+        "title": "Competitive prices",
+        "description": "Great deals, flexible discount system and regular promotions."
+      },
+      {
+        "title": "Professional support",
+        "description": "Consultations and assistance from qualified specialists."
+      },
+      {
+        "title": "Fast delivery",
+        "description": "Prompt delivery and convenient payment terms."
+      },
+      {
+        "title": "Reliability and trust",
+        "description": "Long-term relationships and an individual approach to each client."
+      }
+    ],
+    "goalText": "Our goal is to exceed your expectations and make working with us as comfortable and efficient as possible. We strive for long-term partnerships and are always ready to meet our customers halfway."
+  },
+	"contact": {
+    "contactTextHero": "CONTACT US",
+    "methods": [
+      {
+        "title": "EMAIL",
+        "details": "",
+        "color": "#CBCBCB"
+      },
+      {
+        "title": "TELEPHONE",
+        "details": "+90 532 987 6543",
+        "color": "#FFCE33"
+      },
+      {
+        "title": "ADDRESS",
+        "details": "Ziya Gokalp Mah. Suleyman Demirel Blv. The Office No: 7E, Ic Kapi No: 136, Basaksehir / Istanbul / Turkiye",
+        "color": "#0090FF"
+      }
+    ]
+  }
 }

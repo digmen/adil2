@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import logo from './images/logo.svg'
+import logo from './images/logowhite.svg'
 
 import footerBg from './images/footer.png'
 import { useTranslation } from 'react-i18next'
@@ -12,7 +12,7 @@ export default function Footer() {
         <div className='flex justify-between px-[40px] pt-[25px] w-full max-sm:flex-col  max-sm:pb-12 bg-white' style={{ backgroundImage: `url(${footerBg})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
             <div className='flex w-full justify-between py-[20px]'>
                 <div className='flex items-center flex-col gap-4 w-[243px] h-[188px]'>
-                    <img src={logo} alt='logo' className='w-[77px] h-[69px] fill-white' />
+                    <img src={logo} alt='logo' className='w-[243px] h-[188px]' />
                 </div>
                 <div className='flex gap-[122px]'>
                     <div className='flex flex-col items-start pb-[14px] gap-[1px] w-[180px]  max-sm:items-center'>

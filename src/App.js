@@ -15,19 +15,19 @@ import NotFoundPage from './notfound/NotFoundPage'
 export default function App() {
   return (
     <>
-      {/* <Header /> */}
+      <Header />
       <TransitionWrapper>
         <Routes>
-          <Route path='*' element={<NotFoundPage />} />
-          <Route path='/' element={<NotFoundPage />} />
-          <Route path='/home' element={<Home />} />
+          {/* <Route path='*' element={<NotFoundPage />} /> */}
+          {/* <Route path='/' element={<NotFoundPage />} /> */}
+          <Route path='/' element={<Home />} />
           <Route path='/about' element={<AboutUs />} />
           <Route path='/product' element={<Product />} />
           <Route path='/service' element={<Service />} />
           <Route path='/contact' element={<Contact />} />
         </Routes>
       </TransitionWrapper>
-      {/* <Footer /> */}
+      <Footer />
     </>
   )
 }
