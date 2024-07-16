@@ -6,8 +6,8 @@ import warningImg from './images/warning.png'
 
 export default function NotFoundPage() {
     return (
-        <div className='flex flex-col items-center'>
-            <div className='mt-[50px]'>
+        <div className='flex flex-col items-center mt-[125px]'>
+            <div className='mt-[20px]'>
                 <img src={warningImg} />
             </div>
             <div className='flex flex-col items-center gap-10 mt-[20px]'>

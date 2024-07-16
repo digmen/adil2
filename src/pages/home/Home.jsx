@@ -28,13 +28,13 @@ export default function Home() {
         });
     }, []);
     return (
-        <div>
+        <div className='mt-[125px]'>
             <div className='h-[700px] relative' style={{ backgroundImage: `url(${homeImage})`, backgroundSize: 'cover' }}>
                 <div className='absolute w-full h-full bg-gradient-to-t from-[#00000069] via-[#000000bc] to-[#00000069]'></div>
                 <div className='w-[780px] h-full flex flex-col justify-center px-[40px] z-20'>
                     <span className='text-white text-[55px] font-bold  z-20 max-sm:text-[30px]'>{t('home.homeTextHero')}</span>
                     <span className='text-white text-[29px] mt-[25px] font-bold  z-20 max-sm:text-[30px] max-sm:w-[300px]'>{t('home.homeTextHeroPrg')}</span>
-                    <Link className='text-white bg-[#FFCE33] mt-[40px] rounded-[25px] w-[230px] text-[31px] font-bold text-center z-20 max-sm:text-[30px] max-sm:w-[300px]'>{t('home.homeTextHeroBtn')}</Link>
+                    <Link className='text-white bg-[#FFCE33] mt-[40px] rounded-[25px] w-[270px] text-[31px] font-bold text-center z-20 max-sm:text-[30px] max-sm:w-[300px]'>{t('home.homeTextHeroBtn')}</Link>
                 </div>
             </div>
 

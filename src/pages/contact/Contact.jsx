@@ -20,14 +20,18 @@ export default function Contact() {
   }, []);
 
   return (
-    <div>
+    <div className='mt-[125px]'>
       <div className='px-[40px] mb-[100px]'>
         <h1 className='text-[140px] text-center font-bold'>{t('contact.contactTextHero')}</h1>
-        <div className='flex justify-around -translate-y-14'>
+        <div className='flex justify-around -translate-y-6'>
           {t('contact.methods', { returnObjects: true }).map((method, index) => (
-            <div key={index} className={`bg-[${method.color}] w-[390px] h-[500px] p-[30px] rounded-[25px] flex flex-col items-center ${index % 2 === 0 ? 'rotate-12' : '-rotate-12'}`}>
+            <div
+              key={index}
+              style={{ backgroundColor: method.color }}
+              className={`w-[390px] h-[500px] p-[30px] rounded-[25px] flex flex-col items-center ${index % 2 === 0 ? 'rotate-12' : '-rotate-12'}`}
+            >
               <h2 className='font-bold text-[50px]'>{method.title}</h2>
-              <span className={`font-light ${method.title === 'TELEPHONE' ? 'text-[40px]' : 'text-[34px]'}`}>{method.details}</span>
+              <span className='font-light text-[40px]'>{method.details}</span>
             </div>
           ))}
         </div>

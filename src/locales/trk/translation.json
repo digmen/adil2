@@ -7,9 +7,9 @@
     "homeLink5": "KONTAKTIERE UNS"
   },
   "home": {
-    "homeTextHero": "Willkommen in unserem Geschäft",
-    "homeTextHeroPrg": "Entdecken Sie eine große Auswahl an hochwertigen Produkten",
-    "homeTextHeroBtn": "Jetzt einkaufen",
+    "homeTextHero": "Güvenilebilecek Kalite",
+    "homeTextHeroPrg": "World Innovation Group ile konfor ve ilham yaratın",
+    "homeTextHeroBtn": "Şimdi sipariş ver",
     "stats": {
       "items": "Artikel",
       "brands": "Marken",
@@ -20,22 +20,22 @@
       "categories": {
         "carAndMotorbike": {
           "title": "Auto und Motorrad",
-          "description": "Die Reparatur und Wartung von Autos und Motorrädern erfordert hochwertige Ersatzteile und Werkzeuge. "
+          "description": "Arabaların ve motosikletlerin onarımı ve bakımı, yüksek kaliteli yedek parça ve aletler gerektirir. [Şirket Adı] şirketi, nakliyenizi mükemmel durumda tutmak için ihtiyacınız olan her şeyi sağlar. Tüm ürünlerde yüksek kaliteyi, geniş ürün yelpazesini ve uygun fiyatları garanti ediyoruz. Profesyonel tavsiye ve gerekli yedek parçaların seçimi için bizimle iletişime geçin."
         },
         "electronics": {
           "title": "Elektronik",
-          "description": "Elektronik für Zuhause und Büro vereinfacht unser Leben erheblich und erhöht den Komfort und die Produktivität. "
+          "description": "Ev ve ofis elektronikleri hayatımızı büyük ölçüde kolaylaştırır, konfor ve üretkenliği artırır. Şirket [Şirket adı] tüm ihtiyaçlarınızı karşılayacak geniş bir yelpazede yüksek kaliteli ve güvenilir ürünler sunmaktadır. Profesyonel tavsiye ve gerekli ekipmanın seçimi için bizimle iletişime geçin."
         },
         "diyAndTools": {
           "title": "Heimwerken und Werkzeuge",
-          "description": "Das Unternehmen World Innovation Group bietet eine große Auswahl an Werkzeugen und Materialien für DIY-Projekte. "
+          "description": "World Innovation Group şirketi, Kendin Yap projeleri için geniş bir araç ve malzeme yelpazesi sunmaktadır. Burada onarım, inşaat ve yaratıcılık için ihtiyacınız olan her şeyi bulacaksınız. Yüksek kaliteyi, uygun fiyatları ve profesyonel desteği garanti ediyoruz. DIY fikirlerinizi gerçeğe dönüştürmek için bizimle iletişime geçin."
         },
         "clothing": {
           "title": "Kleidung",
-          "description": "Unser Unternehmen bietet ein breites Sortiment an modischer und hochwertiger Bekleidung für alle Anlässe und Jahreszeiten. "
+          "description": "Firmamız her durum ve mevsim için geniş bir yelpazede modaya uygun ve kaliteli giyim sunmaktadır. Burada günlük eşyalardan şık kıyafetlere kadar mükemmel gardırobunuzu oluşturmak için ihtiyacınız olan her şeyi bulacaksınız. Yüksek kaliteli malzemeleri, çeşitli stilleri ve uygun fiyatları garanti ediyoruz."
         },
         "computing": {
-          "title": "Computer",
+          "title": "Bilgi işlem",
           "description": "Das Unternehmen World Innovation Group bietet alles, was Sie für Ihren Computerbedarf benötigen. "
         },
         "textile": {
@@ -242,7 +242,7 @@
       },
       {
         "title": "ADRESSE",
-        "details": "Ziya Gokalp Mah. ",
+        "details": "Ziya Gokalp Mah. Suleyman Demirel Blv. The Office No: 7E, Ic Kapi No: 136, Basaksehir / Istanbul / Turkiye",
         "color": "#0090FF"
       }
     ]

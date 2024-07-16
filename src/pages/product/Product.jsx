@@ -21,7 +21,7 @@ export default function Product() {
   }, []);
 
   return (
-    <div>
+    <div className='mt-[125px]'>
       <div className='h-[200px]' style={{ backgroundImage: `url(${productHero})`, backgroundSize: 'cover' }}>
         <div className='h-[200px] flex items-center px-[40px] z-20'>
           <span className='text-white text-[55px] font-black text-center z-20 max-sm:text-[30px]'>{t('product.productTextHero')}</span>

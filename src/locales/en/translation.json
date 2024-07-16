@@ -1,250 +1,250 @@
 {
-    "header": {
-		"homeLink": "HOME",
-		"homeLink2": "ABOUT US",
-		"homeLink3": "PRODUCT",
-		"homeLink4": "SERVICES",
-		"homeLink5": "CONTACT US"
+  "header": {
+		"homeLink": "ANA SAYFA",
+		"homeLink2": "HAKKIMIZDA",
+		"homeLink3": "ÜRÜN",
+		"homeLink4": "HİZMETLER",
+		"homeLink5": "İLETİŞİM"
 	},
 	"home": {
-    "homeTextHero": "Welcome to Our Store",
-    "homeTextHeroPrg": "Discover a wide range of high-quality products",
-    "homeTextHeroBtn": "Shop Now",
+    "homeTextHero": "Güvenilebilecek Kalite",
+    "homeTextHeroPrg": "World Innovation Group ile konfor ve ilham yaratın",
+    "homeTextHeroBtn": "Şimdi Sipariş Ver",
     "stats": {
-      "items": "Items",
-      "brands": "Brands",
-      "clients": "Glad Clients"
+      "items": "Ürünler",
+      "brands": "Markalar",
+      "clients": "Memnun Müşteriler"
     },
     "products": {
-      "title": "Our Product",
+      "title": "Ürünlerimiz",
       "categories": {
         "carAndMotorbike": {
-          "title": "Car And Motorbike",
-          "description": "The repair and maintenance of cars and motorcycles requires high-quality spare parts and tools. The company [Company Name] provides everything you need to keep your transport in excellent condition. We guarantee high quality, a wide range and affordable prices for all products. Contact us for professional advice and selection of necessary spare parts."
+          "title": "Araba ve Motosiklet",
+          "description": "Araba ve motosikletlerin tamir ve bakımı, yüksek kaliteli yedek parçalar ve aletler gerektirir. [Firma Adı], taşıtınızı mükemmel durumda tutmanız için gereken her şeyi sağlar. Yüksek kalite, geniş ürün yelpazesi ve uygun fiyatlar garantisi veriyoruz. Profesyonel danışmanlık ve gerekli yedek parçaların seçimi için bize ulaşın."
         },
         "electronics": {
-          "title": "Electronics",
-          "description": "Electronics for home and office greatly simplify our lives and increase comfort and productivity. The company [Company name] offers a wide range of high-quality and reliable products that will satisfy all your needs. Contact us for professional advice and selection of the necessary equipment."
+          "title": "Elektronik",
+          "description": "Ev ve ofis için elektronik ürünler hayatımızı büyük ölçüde basitleştirir ve konfor ile verimliliği artırır. [Firma Adı], tüm ihtiyaçlarınızı karşılayacak yüksek kaliteli ve güvenilir ürünler sunar. Profesyonel danışmanlık ve gerekli ekipmanların seçimi için bize ulaşın."
         },
         "diyAndTools": {
-          "title": "DIY And Tools",
-          "description": "The company World Innovation Group offers a wide range of tools and materials for DIY projects. Here you will find everything you need for repairs, construction and creativity. We guarantee high quality, affordable prices and professional support. Contact us to make your DIY ideas a reality."
+          "title": "Kendin Yap ve Aletler",
+          "description": "World Innovation Group, kendin yap projeleri için geniş bir alet ve malzeme yelpazesi sunar. Tamirat, inşaat ve yaratıcılık için gereken her şeyi burada bulabilirsiniz. Yüksek kalite, uygun fiyatlar ve profesyonel destek garantisi veriyoruz. Kendin yap fikirlerinizi gerçekleştirmek için bize ulaşın."
         },
         "clothing": {
-          "title": "Clothing",
-          "description": "Our company offers a wide range of fashionable and high-quality clothing for all occasions and seasons. Here you will find everything you need to create the perfect wardrobe — from everyday items to elegant outfits. We guarantee high quality materials, a variety of styles and affordable prices."
+          "title": "Giyim",
+          "description": "Firmamız, her durum ve mevsim için geniş bir moda ve yüksek kaliteli giysi yelpazesi sunar. Günlük eşyalarınızdan şık kıyafetlere kadar mükemmel gardırobunuzu oluşturmak için gereken her şeyi burada bulabilirsiniz. Yüksek kaliteli malzemeler, çeşitli stiller ve uygun fiyatlar garantisi veriyoruz."
         },
         "computing": {
-          "title": "Computing",
-          "description": "The company World Innovation Group offers everything you need for your computing needs. Our product range includes high-quality computers, accessories and software. We provide high quality, competitive prices and professional support. Contact us to find the perfect solutions for your computing and IT tasks."
+          "title": "Bilgisayar",
+          "description": "World Innovation Group, bilgisayar ihtiyaçlarınız için gereken her şeyi sunar. Ürün yelpazemizde yüksek kaliteli bilgisayarlar, aksesuarlar ve yazılımlar bulunmaktadır. Yüksek kalite, rekabetçi fiyatlar ve profesyonel destek sağlıyoruz. Bilgisayar ve IT görevleriniz için mükemmel çözümleri bulmak için bize ulaşın."
         },
         "textile": {
-          "title": "Textile",
-          "description": "The company World Innovation Group offers a wide range of textile products for various needs. Here you will find high-quality fabrics, materials and finished products for home, office and fashion. We guarantee excellent quality, affordable prices and professional service. Contact us to update and decorate your space with our textile products."
+          "title": "Tekstil",
+          "description": "World Innovation Group, çeşitli ihtiyaçlar için geniş bir tekstil ürünleri yelpazesi sunar. Ev, ofis ve moda için yüksek kaliteli kumaşlar, malzemeler ve hazır ürünler burada bulabilirsiniz. Mükemmel kalite, uygun fiyatlar ve profesyonel hizmet garantisi veriyoruz. Tekstil ürünlerimizle mekanınızı güncellemek ve süslemek için bize ulaşın."
         },
         "houseAppliances": {
-          "title": "House Appliances",
-          "description": "The company World Innovation Group offers a wide range of household appliances for your home. Here you will find high-quality and reliable devices for the kitchen, cleaning and comfort. We guarantee high quality, affordable prices and professional service. Contact us to make your home cozy and modern with the help of our household appliances."
+          "title": "Ev Aletleri",
+          "description": "World Innovation Group, eviniz için geniş bir ev aletleri yelpazesi sunar. Mutfak, temizlik ve konfor için yüksek kaliteli ve güvenilir cihazlar burada bulabilirsiniz. Yüksek kalite, uygun fiyatlar ve profesyonel hizmet garantisi veriyoruz. Ev aletlerimizle evinizi konforlu ve modern hale getirmek için bize ulaşın."
         },
         "foodProducts": {
-          "title": "Food Products",
-          "description": "The company World Innovation Group offers a variety of high-quality food products. Here you will find fresh and natural products that will satisfy any taste preferences. We guarantee affordable prices and professional service. Contact us to fill your table with delicious and healthy food."
+          "title": "Gıda Ürünleri",
+          "description": "World Innovation Group, çeşitli yüksek kaliteli gıda ürünleri sunar. Taze ve doğal ürünleri burada bulabilir ve her türlü damak zevkine hitap edebilirsiniz. Uygun fiyatlar ve profesyonel hizmet garantisi veriyoruz. Masanızı lezzetli ve sağlıklı gıdalarla doldurmak için bize ulaşın."
         }
       },
-      "moreBtn": "More"
+      "moreBtn": "Daha Fazla"
     },
     "aboutUs": {
-      "title": "About Us",
-      "description": "Our company specializes in wholesale sales of high-quality textiles, home goods, and food products. We strive to offer only the best items, carefully selected from trusted suppliers. Our approach is based on meeting customer needs and providing the highest level of service. With us, you get not just products, but a reliable partner for your business. Join our satisfied customers and experience the difference!",
-      "learnMoreBtn": "Learn More"
+      "title": "Hakkımızda",
+      "description": "Firmamız, yüksek kaliteli tekstil, ev eşyaları ve gıda ürünlerinin toptan satışında uzmanlaşmıştır. Sadece güvenilir tedarikçilerden özenle seçilmiş en iyi ürünleri sunmayı hedefliyoruz. Müşteri ihtiyaçlarını karşılamaya ve en yüksek hizmet seviyesini sağlamaya dayalı bir yaklaşımımız var. Bizimle, sadece ürünler değil, işiniz için güvenilir bir ortak elde edersiniz. Memnun müşterilerimize katılın ve farkı yaşayın!",
+      "learnMoreBtn": "Daha Fazla Bilgi"
     },
     "brands": {
-      "brend1": "Brand 1",
-      "brend2": "Brand 2",
-      "brend3": "Brand 3",
-      "brend4": "Brand 4",
-      "brend5": "Brand 5"
+      "brend1": "Marka 1",
+      "brend2": "Marka 2",
+      "brend3": "Marka 3",
+      "brend4": "Marka 4",
+      "brend5": "Marka 5"
     }
   },
 	"about": {
-    "aboutTextHero": "About Us",
+    "aboutTextHero": "Hakkımızda",
     "ourMission": {
-      "title": "Our Mission",
-      "description": "At World Innovation Group, we strive to create comfort and style in every home, offering our customers the finest solutions for interior and food. Our goal is to inspire and enrich the lives of our customers by providing high-quality textiles, unique interior items, and food products. We believe that every home deserves to be a perfect place for relaxation and self-expression, and thus we continually work to offer products that enhance life and comfort. Join us on our journey to create beautiful and functional spaces that reflect your individuality and style."
+      "title": "Misyonumuz",
+      "description": "World Innovation Group olarak, müşterilerimize iç mekan ve gıda çözümleri sunarak her evde konfor ve stil yaratmayı amaçlıyoruz. Amacımız, yüksek kaliteli tekstil ürünleri, benzersiz iç mekan öğeleri ve gıda ürünleri sunarak müşterilerimizin hayatını ilham vermek ve zenginleştirmektir. Her evin rahatlama ve kendini ifade etme için mükemmel bir yer olmayı hak ettiğine inanıyoruz ve bu nedenle yaşamı ve konforu artıran ürünler sunmaya devam ediyoruz. Bize katılın ve kişiliğinizi ve stilinizi yansıtan güzel ve fonksiyonel alanlar yaratma yolculuğumuzda yer alın."
     },
     "ourPhilosophy": {
-      "title": "Our Philosophy",
-      "description": "The philosophy of our company is based on three main principles: honesty, transparency, and constant pursuit of excellence. We believe in the importance of open and honest relationships with our customers and partners. Our goal is to ensure maximum customer satisfaction by providing them with only the best products and services. We are constantly striving to improve all aspects of our business."
+      "title": "Felsefemiz",
+      "description": "Şirketimizin felsefesi üç ana ilkeye dayanır: dürüstlük, şeffaflık ve mükemmellik arayışı. Müşterilerimiz ve ortaklarımızla açık ve dürüst ilişkilerin önemine inanıyoruz. Amacımız, sadece en iyi ürün ve hizmetleri sunarak maksimum müşteri memnuniyeti sağlamaktır. İşimizin tüm yönlerini sürekli olarak geliştirmeye çalışıyoruz."
     },
     "ourValues": {
-      "title": "Our Values",
+      "title": "Değerlerimiz",
       "dynamism": {
-        "title": "Dynamism",
-        "description": "We evolve with the fast pace of e-commerce. We detect the latest trends and take risks so that our customers are satisfied and continue to cooperate with us."
+        "title": "Dinamizm",
+        "description": "E-ticaretin hızlı temposuna ayak uyduruyoruz. En son trendleri tespit ediyor ve müşterilerimizin memnun kalmasını ve bizimle işbirliğine devam etmesini sağlamak için risk alıyoruz."
       },
       "innovation": {
-        "title": "Innovation",
-        "description": "Innovation is the core of our strategy. We innovate in technology, logistics, operations, and constantly optimize our processes."
+        "title": "Yenilikçilik",
+        "description": "Yenilikçilik stratejimizin özüdür. Teknolojide, lojistikte, operasyonlarda yenilik yapıyor ve süreçlerimizi sürekli optimize ediyoruz."
       },
       "passionForEcommerce": {
-        "title": "Passion For Ecommerce",
-        "description": "We are passionate about online, multi-channel, and international selling. And we always do it with sustainability as a priority."
+        "title": "E-Ticaret Tutkusu",
+        "description": "Online, çok kanallı ve uluslararası satışa tutkuyla bağlıyız. Ve bunu her zaman sürdürülebilirlik önceliği ile yapıyoruz."
       }
     },
     "ourStory": {
-      "title": "Our Story",
-      "description": "We founded our company with the aim of connecting manufacturers with customers. Starting with a small amount of capital, we signed contracts with large manufacturers and significantly increased the volume of orders. The opening of offices and warehouses allowed us to reduce the delivery time. Today we are the market leader, introducing the latest technologies and constantly expanding our geographical presence and customer service capabilities."
+      "title": "Hikayemiz",
+      "description": "Şirketimizi, üreticileri müşterilerle buluşturma amacıyla kurduk. Küçük bir sermaye ile başladık, büyük üreticilerle sözleşmeler imzaladık ve sipariş hacmini önemli ölçüde artırdık. Ofislerin ve depoların açılması teslimat süresini azaltmamıza olanak sağladı. Bugün pazar lideriyiz, en son teknolojileri tanıtıyor ve coğrafi varlığımızı ve müşteri hizmeti yeteneklerimizi sürekli genişletiyoruz."
     }
   },
 	"product": {
-    "productTextHero": "Product",
-    "whyChooseUs": {
-      "title": "Why choose us",
-      "description": "We offer high-quality products in three key categories: textiles, household goods and food. Each area has its own advantages, but they are united by one thing – our commitment to excellence and customer satisfaction.",
-      "qualities": [
-        "Quality: We work only with trusted suppliers, ensuring high standards for each unit of production.",
-        "Variety: A wide range of products allows you to meet a variety of needs and tastes.",
-        "Trust: We value long-term relationships with customers and partners by offering reliable and effective solutions."
-      ]
-    },
-    "mostPopularProduction": {
-      "title": "Most Popular Production",
-      "categories": [
-        {
-          "title": "Car And Motorbike",
-          "items": [
-            "Car and motorbike care",
-            "Car accessories",
-            "Car parts",
-            "Car tools"
-          ]
-        },
-        {
-          "title": "Electronics",
-          "items": [
-            "Batteries and chargers",
-            "Dressing technology",
-            "Hi-Fi equipment"
-          ]
-        },
-        {
-          "title": "Clothing",
-          "items": [
-            "Women",
-            "Baby",
-            "Boys",
-            "Men"
-          ]
-        },
-        {
-          "title": "DIY And Tools",
-          "items": [
-            "Building machinery",
-            "Home organisation",
-            "Building supplies",
-            "Electrical wiring"
-          ]
-        },
-        {
-          "title": "Computing",
-          "items": [
-            "Accessories",
-            "Barebones",
-            "Cabling and connectivity",
-            "Components"
-          ]
-        },
-        {
-          "title": "Textile",
-          "items": [
-            "Cotton",
-            "Linen",
-            "Wool",
-            "Silk"
-          ]
-        },
-        {
-          "title": "House Appliances",
-          "items": [
-            "Decorative materials",
-            "Beer and wine production",
-            "Baking",
-            "Bath"
-          ]
-        },
-        {
-          "title": "Food Products",
-          "items": [
-            "Aperitifs",
-            "Bakery and pastries",
-            "Beers, wines and spirits",
-            "Cereals and muesli"
-          ]
-        }
-      ]
-    }
+  "productTextHero": "Ürün",
+  "whyChooseUs": {
+    "title": "Neden bizi seçmelisiniz",
+    "description": "Tekstil, ev eşyaları ve gıda olmak üzere üç temel kategoride yüksek kaliteli ürünler sunuyoruz. Her alanın kendi avantajları olsa da, onları birleştiren şey mükemmelliğe ve müşteri memnuniyetine olan bağlılığımızdır.",
+    "qualities": [
+      "Kalite: Sadece güvenilir tedarikçilerle çalışarak, her üretim birimi için yüksek standartları garanti altına alıyoruz.",
+      "Çeşitlilik: Geniş ürün yelpazesi, çeşitli ihtiyaçları ve zevkleri karşılamanıza olanak tanır.",
+      "Güven: Güvenilir ve etkili çözümler sunarak müşteriler ve ortaklarla uzun vadeli ilişkileri değerli buluyoruz."
+    ]
   },
-	 "service": {
-    "heroText": "Service",
-    "whyServiceBest": {
-      "title": "Why is our service the best",
-      "description": "We are proud to provide our customers with an exceptional service that sets us apart from our competitors. Our service approach includes the following key aspects:",
-      "points": [
-        "Individual approach: We understand that each client is unique and offer personalized solutions tailored to your specific needs and expectations.",
-        "Professional support: Our team of experts is always ready to help you with any questions and provide qualified recommendations on the choice of products.",
-        "Fast and reliable delivery: We ensure timely delivery of goods so that you can count on us in any situation.",
-        "Quality Assurance: We stand behind the quality of our products and services, offering guarantees and the possibility of a refund if necessary.",
-        "Flexible terms of cooperation: We strive to make our cooperation convenient and profitable for you by offering flexible payment terms and customized offers."
-      ],
-      "imageAlt": "about img"
-    },
-    "advantagesTitle": "Advantages of working with us",
-    "advantages": [
+  "mostPopularProduction": {
+    "title": "En Popüler Üretim",
+    "categories": [
       {
-        "title": "High quality",
-        "description": "Products from trusted and certified manufacturers."
+        "title": "Otomobil ve Motosiklet",
+        "items": [
+          "Otomobil ve motosiklet bakımı",
+          "Otomobil aksesuarları",
+          "Otomobil parçaları",
+          "Otomobil araçları"
+        ]
       },
       {
-        "title": "Wide range",
-        "description": "Products for all needs and preferences."
+        "title": "Elektronik",
+        "items": [
+          "Piller ve şarj cihazları",
+          "Dressing teknolojisi",
+          "Hi-Fi ekipmanları"
+        ]
       },
       {
-        "title": "Competitive prices",
-        "description": "Great deals, flexible discount system and regular promotions."
+        "title": "Giyim",
+        "items": [
+          "Kadınlar",
+          "Bebekler",
+          "Erkek çocuklar",
+          "Erkekler"
+        ]
       },
       {
-        "title": "Professional support",
-        "description": "Consultations and assistance from qualified specialists."
+        "title": "DIY ve Araçlar",
+        "items": [
+          "İnşaat makineleri",
+          "Ev düzeni",
+          "İnşaat malzemeleri",
+          "Elektrik tesisatı"
+        ]
       },
       {
-        "title": "Fast delivery",
-        "description": "Prompt delivery and convenient payment terms."
+        "title": "Bilgi İşlem",
+        "items": [
+          "Aksesuarlar",
+          "Boş gövdeler",
+          "Kablolar ve bağlantı",
+          "Bileşenler"
+        ]
       },
       {
-        "title": "Reliability and trust",
-        "description": "Long-term relationships and an individual approach to each client."
-      }
-    ],
-    "goalText": "Our goal is to exceed your expectations and make working with us as comfortable and efficient as possible. We strive for long-term partnerships and are always ready to meet our customers halfway."
-  },
-	"contact": {
-    "contactTextHero": "CONTACT US",
-    "methods": [
-      {
-        "title": "EMAIL",
-        "details": "",
-        "color": "#CBCBCB"
+        "title": "Tekstil",
+        "items": [
+          "Pamuk",
+          "Keten",
+          "Yün",
+          "İpek"
+        ]
       },
       {
-        "title": "TELEPHONE",
-        "details": "+90 532 987 6543",
-        "color": "#FFCE33"
+        "title": "Ev Aletleri",
+        "items": [
+          "Dekoratif malzemeler",
+          "Bira ve şarap üretimi",
+          "Fırınlama",
+          "Banyo"
+        ]
       },
       {
-        "title": "ADDRESS",
-        "details": "Ziya Gokalp Mah. Suleyman Demirel Blv. The Office No: 7E, Ic Kapi No: 136, Basaksehir / Istanbul / Turkiye",
-        "color": "#0090FF"
+        "title": "Gıda Ürünleri",
+        "items": [
+          "Aperatifler",
+          "Fırın ve pastalar",
+          "Bira, şarap ve alkollü içecekler",
+          "Tahıllar ve müsli"
+        ]
       }
     ]
   }
+},
+"service": {
+  "heroText": "Hizmet",
+  "whyServiceBest": {
+    "title": "Neden hizmetimiz en iyisi",
+    "description": "Müşterilerimize rakiplerimizden farklı kılan olağanüstü bir hizmet sunmaktan gurur duyuyoruz. Hizmet anlayışımız şu ana unsurları içerir:",
+    "points": [
+      "Bireysel yaklaşım: Her müşterinin benzersiz olduğunu anlıyoruz ve spesifik ihtiyaçlarınıza ve beklentilerinize göre kişiselleştirilmiş çözümler sunuyoruz.",
+      "Profesyonel destek: Uzman ekibimiz her zaman sorularınızı yanıtlamaya ve ürün seçimi konusunda kalifiye öneriler sunmaya hazırdır.",
+      "Hızlı ve güvenilir teslimat: Malzemelerin zamanında teslimatını sağlıyoruz, böylece her durumda bize güvenebilirsiniz.",
+      "Kalite Güvencesi: Ürünlerimizin ve hizmetlerimizin kalitesinin arkasında duruyoruz, gerektiğinde garanti ve iade imkanı sunuyoruz.",
+      "Esnek işbirliği koşulları: İşbirliğimizi sizin için uygun ve karlı hale getirmeye çalışıyoruz, esnek ödeme koşulları ve özel teklifler sunarak."
+    ],
+    "imageAlt": "hakkında img"
+  },
+  "advantagesTitle": "Bizimle çalışmanın avantajları",
+  "advantages": [
+    {
+      "title": "Yüksek kalite",
+      "description": "Güvenilir ve sertifikalı üreticilerden ürünler."
+    },
+    {
+      "title": "Geniş ürün yelpazesi",
+      "description": "Tüm ihtiyaçlar ve tercihler için ürünler."
+    },
+    {
+      "title": "Rekabetçi fiyatlar",
+      "description": "Harika fırsatlar, esnek indirim sistemi ve düzenli promosyonlar."
+    },
+    {
+      "title": "Profesyonel destek",
+      "description": "Kalifiye uzmanlar tarafından danışmanlık ve yardım."
+    },
+    {
+      "title": "Hızlı teslimat",
+      "description": "Zamanında teslimat ve uygun ödeme koşulları."
+    },
+    {
+      "title": "Güvenilirlik ve güven",
+      "description": "Uzun vadeli ilişkiler ve her müşteriye özel bir yaklaşım."
+    }
+  ],
+  "goalText": "Amaçlarımız sizin beklentilerinizi aşmak ve bizimle çalışmayı mümkün olduğunca rahat ve verimli hale getirmektir. Uzun vadeli iş ortaklıkları için çaba sarf ediyoruz ve müşterilerimizle her zaman karşılıklı anlayış içinde olmaya hazırız."
+},
+"contact": {
+  "contactTextHero": "BİZİMLE İLETİŞİME GEÇİN",
+  "methods": [
+    {
+      "title": "E-POSTA",
+      "details": "",
+      "color": "#CBCBCB"
+    },
+    {
+      "title": "TELEFON",
+      "details": "+90 532 987 6543",
+      "color": "#FFCE33"
+    },
+    {
+      "title": "ADRES",
+      "details": "Ziya Gökçalp Mah. Süleyman Demirel Blv. The Office No: 7E, İç Kapı No: 136, Başakşehir / İstanbul / Türkiye",
+      "color": "#0090FF"
+    }
+  ]
+}
 }

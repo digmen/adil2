@@ -11,8 +11,8 @@ export default function Footer() {
     return (
         <div className='flex justify-between px-[40px] pt-[25px] w-full max-sm:flex-col  max-sm:pb-12 bg-white' style={{ backgroundImage: `url(${footerBg})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
             <div className='flex w-full justify-between py-[20px]'>
-                <div className='flex items-center flex-col gap-4 w-[243px] h-[188px]'>
-                    <img src={logo} alt='logo' className='w-[243px] h-[188px]' />
+                <div className='flex items-center justify-center flex-col gap-4 w-[300px] h-[200px]'>
+                    <img src={logo} alt='logo' className='w-[80px] h-[150px]' />
                 </div>
                 <div className='flex gap-[122px]'>
                     <div className='flex flex-col items-start pb-[14px] gap-[1px] w-[180px]  max-sm:items-center'>
