@@ -28,7 +28,7 @@ export default function Footer() {
                     </div>
                     <div className='flex flex-col items-start gap-[10px]'>
                         <span className='text-[24px] font-medium text-white'>EMAIL</span>
-                        <a href='#' className='text-[24px] font-medium text-white'></a>
+                        <a href='mailto:worldinnovationgroup@hotmail.com' className='text-[24px] font-medium text-white'>worldinnovationgroup@hotmail.com</a>
                     </div>
                     <div className='flex flex-col w-[200px] items-start gap-[10px]'>
                         <span className='text-[24px] font-medium text-white'>ADRESS</span>

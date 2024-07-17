@@ -31,7 +31,7 @@ export default function Contact() {
               className={`w-[390px] h-[500px] p-[30px] rounded-[25px] flex flex-col items-center ${index % 2 === 0 ? 'rotate-12' : '-rotate-12'}`}
             >
               <h2 className='font-bold text-[50px]'>{method.title}</h2>
-              <span className='font-light text-[40px]'>{method.details}</span>
+              <span className={`font-light text-[${method.textSize}]`}>{method.details}</span>
             </div>
           ))}
         </div>

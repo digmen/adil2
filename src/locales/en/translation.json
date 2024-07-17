@@ -7,9 +7,9 @@
     "homeLink5": "CONTACT US"
   },
   "home": {
-    "homeTextHero": "Güvenilebilecek Kalite",
-    "homeTextHeroPrg": "World Innovation Group ile konfor ve ilham yaratın",
-    "homeTextHeroBtn": "Şimdi sipariş ver",
+    "homeTextHero": "Quality That Can Be Trusted",
+    "homeTextHeroPrg": "Create comfort and inspiration with World Innovation Group",
+    "homeTextHeroBtn": "Order Now",
     "stats": {
       "items": "Article",
       "brands": "Brands",
@@ -19,43 +19,43 @@
       "title": "Our product",
       "categories": {
         "carAndMotorbike": {
-          "title": "Car and motorcycle",
-          "description": "Arabaların ve motosikletlerin onarimımı bakımı, yüksek kaliteli yedek parça ve aletler gerektirir. "
+          "title": "Car And Motorbike",
+          "description": "The repair and maintenance of cars and motorcycles requires high-quality spare parts and tools. The company [Company Name] provides everything you need to keep your transport in excellent condition. We guarantee high quality, a wide range and affordable prices for all products. Contact us for professional advice and selection of necessary spare parts. "
         },
         "electronics": {
-          "title": "electronics",
-          "description": "Ev ve ofis elektronikleri hayatımızı büyük ölçüde kolaylaştırır, konfor ve üretkenliği artırır. "
+          "title": "Electronics",
+          "description": "Electronics for home and office greatly simplify our lives and increase comfort and productivity. The company [Company name] offers a wide range of high-quality and reliable products that will satisfy all your needs. Contact us for professional advice and selection of the necessary equipment. "
         },
         "diyAndTools": {
-          "title": "DIY and tools",
-          "description": "World Innovation Group şirketi, Kendin Yap projeleri ingeniş biraç ve malzeme yelpazesi sunmaktadır. "
+          "title": "DIY And tools",
+          "description": "The company World Innovation Group offers a wide range of tools and materials for DIY projects. Here you will find everything you need for repairs, construction and creativity. We guarantee high quality, affordable prices and professional support. Contact us to make your DIY ideas a reality. "
         },
         "clothing": {
           "title": "Clothing",
-          "description": "Firmmız her durum and mevsim için geniş bir yelpazede modaya uygun ve kaliteli giyim sunmaktadır. "
+          "description": "Our company offers a wide range of fashionable and high-quality clothing for all occasions and seasons. Here you will find everything you need to create the perfect wardrobe — from everyday items to elegant outfits. We guarantee high quality materials, a variety of styles and affordable prices.  "
         },
         "computing": {
-          "title": "Bilgi islem",
-          "description": "World Innovation Group offers everything you need for your computing needs. "
+          "title": "Computing",
+          "description": "The company World Innovation Group offers everything you need for your computing needs. Our product range includes high-quality computers, accessories and software. We provide high quality, competitive prices and professional support. Contact us to find the perfect solutions for your computing and IT tasks. "
         },
         "textile": {
           "title": "Textile",
-          "description": "The World Innovation Group company offers a wide range of textile products for different needs. "
+          "description": "The company World Innovation Group offers a wide range of textile products for various needs. Here you will find high-quality fabrics, materials and finished products for home, office and fashion. We guarantee excellent quality, affordable prices and professional service. Contact us to update and decorate your space with our textile products. "
         },
         "houseAppliances": {
-          "title": "domestic appliances",
-          "description": "The World Innovation Group company offers a wide range of household appliances for your home. "
+          "title": "House Appliances",
+          "description": "The company World Innovation Group offers a wide range of household appliances for your home. Here you will find high-quality and reliable devices for the kitchen, cleaning and comfort. We guarantee high quality, affordable prices and professional service. Contact us to make your home cozy and modern with the help of our household appliances. "
         },
         "foodProducts": {
-          "title": "Groceries",
-          "description": "The World Innovation Group company offers a variety of high-quality food products. "
+          "title": "Food Products",
+          "description": "The company World Innovation Group offers a variety of high-quality food products. Here you will find fresh and natural products that will satisfy any taste preferences. We guarantee affordable prices and professional service. Contact us to fill your table with delicious and healthy food. "
         }
       },
       "moreBtn": "More"
     },
     "aboutUs": {
       "title": "About Us",
-      "description": "Our company specializes in the wholesale of high-quality textiles, household goods and food. ",
+      "description": "Our company specializes in wholesale sales of high-quality textiles, home goods, and food products. We strive to offer only the best items, carefully selected from trusted suppliers. Our approach is based on meeting customer needs and providing the highest level of service. With us, you get not just products, but a reliable partner for your business. Join our satisfied customers and experience the difference! ",
       "learnMoreBtn": "Learn more"
     },
     "brands": {
@@ -66,61 +66,61 @@
       "brend5": "Brand 5"
     }
   },
-  "about": {
-    "aboutTextHero": "About Us",
-    "ourMission": {
-      "title": "Our task",
-      "description": "At World Innovation Group, we strive to create comfort and style in every home and provide our customers with the best interior design and dining solutions. "
-    },
+    "about": {
+      "aboutTextHero": "About Us",
+      "ourMission": {
+        "title": "Our Mission",
+        "description": "At World Innovation Group, we strive to create comfort and style in every home, offering our customers the finest solutions for interior and food. Our goal is to inspire and enrich the lives of our customers by providing high-quality textiles, unique interior items, and food products. We believe that every home deserves to be a perfect place for relaxation and self-expression, and thus we continually work to offer products that enhance life and comfort. Join us on our journey to create beautiful and functional spaces that reflect your individuality and style."
+      },
     "ourPhilosophy": {
-      "title": "our philosophy",
-      "description": "Our company's philosophy is based on three main principles: honesty, transparency and constant pursuit of excellence. "
+      "title": "Our Philosophy",
+      "description": "The philosophy of our company is based on three main principles: honesty, transparency and constant pursuit of excellence. We believe in the importance of open and honest relationships with our customers and partners. Our goal is to ensure maximum customer satisfaction by providing them with only the best products and services. We are constantly striving to improve all aspects of our business. "
     },
     "ourValues": {
       "title": "Our values",
       "dynamism": {
-        "title": "dynamics",
-        "description": "We are evolving at the rapid pace of e-commerce. "
+        "title": "Dynamism",
+        "description": "We evolve with the fast pace of e commerce. We detect the latest trends and we take risks. So that our customers are satisfied and continue to cooperate with us "
       },
       "innovation": {
-        "title": "innovation",
-        "description": "Innovation is the core of our strategy. "
+        "title": "Innovation",
+        "description": "Innovation is the core of our strategy. We innovate in technology, logistics, operations and we constantly optimise our processes. "
       },
       "passionForEcommerce": {
-        "title": "Passionate about e-commerce",
-        "description": "Our passion is online, multi-channel and international sales. "
+        "title": "Passion For Ecommerce",
+        "description": "We are passionate about online, multi-channel and international selling. And we always do it with sustainability as a priority. "
       }
     },
     "ourStory": {
-      "title": "Our history",
-      "description": "We founded our company with the goal of connecting manufacturers with customers. "
+      "title": "Our Story",
+      "description": "We founded our company with the aim of connecting manufacturers with customers. Starting with a small amount of capital, we signed contracts with large manufacturers and significantly increased the volume of orders. The opening of offices and warehouses allowed us to reduce the delivery time. Today we are the market leader, introducing the latest technologies and constantly expanding our geographical presence and customer service capabilities. "
     }
   },
   "product": {
-    "productTextHero": "product",
+    "productTextHero": "Product",
     "whyChooseUs": {
-      "title": "Why choose us",
-      "description": "We offer high-quality products in three main categories: textiles, household goods and food. ",
+      "title": "Why Choose Us",
+      "description": "We offer high-quality products in three key categories: textiles, household goods and food. Each area has its own advantages, but they are united by one thing – our commitment to excellence and customer satisfaction. ",
       "qualities": [
-        "Quality: We only work with trustworthy suppliers, ensuring high standards for every production unit.",
-        "Variety: A wide range of products allows you to meet different needs and tastes.",
+        "Quality: We work only with trusted suppliers, ensuring high standards for each unit of production.",
+        "Variety: A wide range of products allows you to meet a variety of needs and tastes.",
         "Trust: We value long-term relationships with customers and partners by offering reliable and effective solutions."
       ]
     },
     "mostPopularProduction": {
-      "title": "Most popular production",
+      "title": "Most Popular Production",
       "categories": [
         {
-          "title": "Car and motorcycle",
+          "title": "Car And Motorbike",
           "items": [
-            "Car and motorcycle care",
+            "Car and motorbike care",
             "Car accessories",
             "Auto parts",
             "Car tools"
           ]
         },
         {
-          "title": "electronics",
+          "title": "Electronics",
           "items": [
             "Batteries and chargers",
             "Dressing technology",
@@ -131,22 +131,22 @@
           "title": "Clothing",
           "items": [
             "Women",
-            "infant",
+            "Baby",
             "Boys",
             "Men"
           ]
         },
         {
-          "title": "DIY and tools",
+          "title": "DIY And Tools",
           "items": [
-            "Construction machinery",
-            "Home organization",
-            "construction materials",
+            "Building machinery",
+            "Home organisation",
+            "Building supplies",
             "Electrical wiring"
           ]
         },
         {
-          "title": "computer",
+          "title": "Computing",
           "items": [
             "Accesories",
             "Bare bones",
@@ -160,20 +160,20 @@
             "Cotton",
             "Linen",
             "Wool",
-            "silk"
+            "Silk"
           ]
         },
         {
-          "title": "domestic appliances",
+          "title": "House Appliances",
           "items": [
             "Decoration materials",
             "Beer and wine production",
-            "Bake",
-            "bath"
+            "Baking",
+            "Bath"
           ]
         },
         {
-          "title": "Groceries",
+          "title": "Food Products",
           "items": [
             "Aperitifs",
             "Bakery and pastry shop",
@@ -188,41 +188,41 @@
     "heroText": "Services",
     "whyServiceBest": {
       "title": "Why is our service the best?",
-      "description": "We pride ourselves on providing our customers with exceptional service that sets us apart from our competitors. ",
+      "description": "We are proud to provide our customers with an exceptional service that sets us apart from our competitors. Our service approach includes the following key aspects: ",
       "points": [
-        "Individual approach: We understand that every customer is unique and offer personalized solutions tailored to your specific needs and expectations.",
-        "Professional support: Our team of experts is always available to answer your questions and give you qualified recommendations on product selection.",
-        "Fast and reliable delivery: We ensure timely delivery of goods, so you can rely on us in any situation.",
-        "Quality Assurance: We stand behind the quality of our products and services and offer guarantees and the option of refunds if necessary.",
-        "Flexible terms of cooperation: We strive to make our cooperation convenient and profitable for you by offering flexible payment terms and tailored offers."
+        "Individual approach: We understand that each client is unique and offer personalized solutions tailored to your specific needs and expectations.",
+        "Professional support: Our team of experts is always ready to help you with any questions and provide qualified recommendations on the choice of products.",
+        "Fast and reliable delivery: We ensure timely delivery of goods so that you can count on us in any situation.",
+        "Quality Assurance: We stand behind the quality of our products and services, offering guarantees and the possibility of a refund if necessary.",
+        "Flexible terms of cooperation: We strive to make our cooperation convenient and profitable for you by offering flexible payment terms and customized offers."
       ],
       "imageAlt": "via img"
     },
     "advantagesTitle": "Advantages of working with us",
     "advantages": [
       {
-        "title": "Good quality",
+        "title": "High quality",
         "description": "Products from trusted and certified manufacturers."
       },
       {
-        "title": "Large selection",
+        "title": "Wide range",
         "description": "Products for all needs and preferences."
       },
       {
-        "title": "competitive prices",
+        "title": "Competitive prices",
         "description": "Great offers, flexible discount system and regular promotions."
       },
       {
         "title": "Professional support",
-        "description": "Advice and support from qualified specialists."
+        "description": "Consultations and assistance from qualified specialists."
       },
       {
         "title": "Fast delivery",
-        "description": "Prompt delivery and favorable payment terms."
+        "description": "Prompt delivery and convenient payment terms."
       },
       {
         "title": "Reliability and trust",
-        "description": "Long-term relationships and an individual approach to each customer."
+        "description": "Long-term relationships and an individual approach to each client."
       }
     ],
     "goalText": "Our goal is to exceed your expectations and make working with us as pleasant and efficient as possible. "
@@ -232,18 +232,21 @@
     "methods": [
       {
         "title": "EMAIL",
-        "details": "",
-        "color": "#CBCBCB"
+        "details": "worldinnovationgroup@hotmail.com",
+        "color": "#CBCBCB",
+        "textSize":"20px"
       },
       {
         "title": "PHONE",
         "details": "+90 532 987 6543",
-        "color": "#FFCE33"
+        "color": "#FFCE33",
+        "textSize":"40px"
       },
       {
         "title": "ADDRESS",
-        "details": "Ziya Gokalp Mah. ",
-        "color": "#0090FF"
+        "details": "Ziya gokalp mah. Suleyman demirel blv. The office no: 7e ic kapi no: 136 basaksehir/ Istanbul/ Turkiye ",
+        "color": "#0090FF",
+        "textSize":"30px"
       }
     ]
   }

@@ -34,7 +34,7 @@ export default function Home() {
                 <div className='w-[780px] h-full flex flex-col justify-center px-[40px] z-20'>
                     <span className='text-white text-[55px] font-bold  z-20 max-sm:text-[30px]'>{t('home.homeTextHero')}</span>
                     <span className='text-white text-[29px] mt-[25px] font-bold  z-20 max-sm:text-[30px] max-sm:w-[300px]'>{t('home.homeTextHeroPrg')}</span>
-                    <Link className='text-white bg-[#FFCE33] mt-[40px] rounded-[25px] w-[270px] text-[31px] font-bold text-center z-20 max-sm:text-[30px] max-sm:w-[300px]'>{t('home.homeTextHeroBtn')}</Link>
+                    <Link to='/contact' className='text-white bg-[#FFCE33] mt-[40px] rounded-[25px] w-[270px] text-[31px] font-bold text-center z-20 max-sm:text-[30px] max-sm:w-[300px]'>{t('home.homeTextHeroBtn')}</Link>
                 </div>
             </div>
 
@@ -110,7 +110,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className='px-[40px] flex justify-center'>
-                    <Link className='text-black bg-[#FFCE33] mt-[40px] rounded-[25px] w-[230px] text-[29px] font-bold text-center z-20 max-sm:text-[30px] max-sm:w-[300px]'>{t('home.products.moreBtn')}</Link>
+                    <Link to='/product' className='text-black bg-[#FFCE33] mt-[40px] rounded-[25px] w-[230px] text-[29px] font-bold text-center z-20 max-sm:text-[30px] max-sm:w-[300px]'>{t('home.products.moreBtn')}</Link>
                 </div>
             </div>
 
