@@ -234,19 +234,19 @@
         "title": "EMAIL",
         "details": "worldinnovationgroup@hotmail.com",
         "color": "#CBCBCB",
-        "textSize":"20px"
+        "textSize":"20"
       },
       {
         "title": "TELEFON",
         "details": "+90 532 987 6543",
         "color": "#FFCE33",
-        "textSize":"40px"
+        "textSize":"40"
       },
       {
         "title": "ADRESSE",
         "details": "Ziya Gokalp Mah. Suleyman Demirel Blv. The Office No: 7E, Ic Kapi No: 136, Basaksehir / Istanbul / Turkiye",
         "color": "#0090FF",
-        "textSize":"30px"
+        "textSize":"30"
       }
     ]
   }

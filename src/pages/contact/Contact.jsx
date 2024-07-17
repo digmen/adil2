@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 
-import contactUsImg from './images/contuctusimg.png'
+
 import { useTranslation } from 'react-i18next';
 
 
@@ -10,7 +10,7 @@ import 'aos/dist/aos.css';
 
 
 export default function Contact() {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   useEffect(() => {
     AOS.init({
@@ -23,17 +23,19 @@ export default function Contact() {
     <div className='mt-[125px]'>
       <div className='px-[40px] mb-[100px]'>
         <h1 className='text-[140px] text-center font-bold'>{t('contact.contactTextHero')}</h1>
-        <div className='flex justify-around -translate-y-6'>
-          {t('contact.methods', { returnObjects: true }).map((method, index) => (
-            <div
-              key={index}
-              style={{ backgroundColor: method.color }}
-              className={`w-[390px] h-[500px] p-[30px] rounded-[25px] flex flex-col items-center ${index % 2 === 0 ? 'rotate-12' : '-rotate-12'}`}
-            >
-              <h2 className='font-bold text-[50px]'>{method.title}</h2>
-              <span className={`font-light text-[${method.textSize}]`}>{method.details}</span>
-            </div>
-          ))}
+        <div className='flex justify-center '>
+          <div className='flex gap-[100px] -translate-y-6'>
+            {t('contact.methods', { returnObjects: true }).map((method, index) => (
+              <div
+                key={index}
+                style={{ backgroundColor: method.color }}
+                className={`w-[390px] h-[500px] p-[30px] rounded-[25px] flex flex-col items-center ${index % 2 === 0 ? 'rotate-12' : '-rotate-12'}`}
+              >
+                <h2 className='font-bold text-[50px]'>{method.title}</h2>
+                <span className='font-light' style={{ fontSize: `${method.textSize}px` }}>{method.details}</span>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>

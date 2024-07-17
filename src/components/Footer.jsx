@@ -6,7 +6,7 @@ import footerBg from './images/footer.png'
 import { useTranslation } from 'react-i18next'
 
 export default function Footer() {
-    const { t, i18n } = useTranslation()
+    const { t } = useTranslation()
 
     return (
         <div className='flex justify-between px-[40px] pt-[25px] w-full max-sm:flex-col  max-sm:pb-12 bg-white' style={{ backgroundImage: `url(${footerBg})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
@@ -24,11 +24,11 @@ export default function Footer() {
                     </div>
                     <div className='flex  flex-col items-start gap-[10px]'>
                         <span className='text-[24px] font-medium text-white'>TELEPHONE NUMBER</span>
-                        <span className='text-[24px] font-medium text-white'>+90 532 987 6543</span>
+                        <span className='text-[18px] font-medium text-white'>+90 532 987 6543</span>
                     </div>
                     <div className='flex flex-col items-start gap-[10px]'>
                         <span className='text-[24px] font-medium text-white'>EMAIL</span>
-                        <a href='mailto:worldinnovationgroup@hotmail.com' className='text-[24px] font-medium text-white'>worldinnovationgroup@hotmail.com</a>
+                        <a href='mailto:worldinnovationgroup@hotmail.com' className='text-[18px] font-medium text-white'>worldinnovationgroup@hotmail.com</a>
                     </div>
                     <div className='flex flex-col w-[200px] items-start gap-[10px]'>
                         <span className='text-[24px] font-medium text-white'>ADRESS</span>

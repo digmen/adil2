@@ -17,7 +17,7 @@ import 'aos/dist/aos.css';
 
 
 export default function Home() {
-    const { t, i18n } = useTranslation();
+    const { t } = useTranslation();
 
     useEffect(() => {
         AOS.init({
