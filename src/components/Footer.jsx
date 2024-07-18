@@ -31,7 +31,7 @@ export default function Footer() {
                         <a href='mailto:worldinnovationgroup@hotmail.com' className='text-[18px] font-medium text-white'>worldinnovationgroup@hotmail.com</a>
                     </div>
                     <div className='flex flex-col w-[200px] items-start gap-[10px]'>
-                        <span className='text-[24px] font-medium text-white'>ADRESS</span>
+                        <span className='text-[24px] font-medium text-white'>ADDRESS</span>
                         <span className='text-[18px] font-medium text-white'>Ziya gokalp mah. Suleyman demirel blv. The office no: 7e ic kapi no: 136 basaksehir/ Istanbul/ Turkiye</span>
                     </div>
                 </div>
