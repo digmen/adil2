@@ -10,7 +10,7 @@ import 'aos/dist/aos.css';
 
 
 export default function Contact() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   useEffect(() => {
     AOS.init({
@@ -19,12 +19,23 @@ export default function Contact() {
     });
   }, []);
 
+  // Determine the font size based on the current language
+  const getFontSize = () => {
+    return i18n.language === 'en' ? '230px' : i18n.language === 'de' ? '230px' : '150px';
+  };
+
+  const getPositionCard = () => {
+    return i18n.language === 'en' ? '20' : i18n.language === 'de' ? '20' : '12';
+  }
+
   return (
     <div className='mt-[125px]'>
       <div className='px-[40px] mb-[100px]'>
-        <h1 className='text-[140px] text-center font-bold'>{t('contact.contactTextHero')}</h1>
+        <h1 className='text-center font-bold' style={{ fontSize: getFontSize() }}>
+          {t('contact.contactTextHero')}
+        </h1>
         <div className='flex justify-center '>
-          <div className='flex gap-[100px] -translate-y-6'>
+          <div className={`flex gap-[100px] -translate-y-${getPositionCard()}`}>
             {t('contact.methods', { returnObjects: true }).map((method, index) => (
               <div
                 key={index}
@@ -32,7 +43,9 @@ export default function Contact() {
                 className={`w-[390px] h-[500px] p-[30px] rounded-[25px] flex flex-col items-center ${index % 2 === 0 ? 'rotate-12' : '-rotate-12'}`}
               >
                 <h2 className='font-bold text-[50px]'>{method.title}</h2>
-                <span className='font-light' style={{ fontSize: `${method.textSize}px` }}>{method.details}</span>
+                <div className='flex flex-1 justify-center items-center'>
+                  <span className='font-light ' style={{ fontSize: `${method.textSize}px` }}>{method.details}</span>
+                </div>
               </div>
             ))}
           </div>
