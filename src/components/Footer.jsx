@@ -30,9 +30,9 @@ export default function Footer() {
                         <span className='text-[24px] max-lg:text-[16px] font-medium text-white md:text-[14px]'>EMAIL</span>
                         <a href='mailto:worldinnovationgroup@hotmail.com' className='text-[18px] max-lg:text-[14px] font-medium text-white md:text-[14px]'>worldinnovationgroup@hotmail.com</a>
                     </div>
-                    <div className='flex flex-col w-[200px] items-start gap-[10px] md:w-[120px]'>
-                        <span className='text-[24px] max-lg:text-[16px]font-medium text-white md:text-[14px]'>ADRESS</span>
-                        <span className='text-[18px] max-lg:text-[14px] font-medium text-white md:text-[14px]'>Ziya gokalp mah. Suleyman demirel blv. The office no: 7e ic kapi no: 136 basaksehir/ Istanbul/ Turkiye</span>
+                    <div className='flex flex-col w-[200px] items-start gap-[10px]'>
+                        <span className='text-[24px] font-medium text-white'>ADDRESS</span>
+                        <span className='text-[18px] font-medium text-white'>Ziya gokalp mah. Suleyman demirel blv. The office no: 7e ic kapi no: 136 basaksehir/ Istanbul/ Turkiye</span>
                     </div>
                 </div>
             </div>
