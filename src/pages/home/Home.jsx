@@ -31,9 +31,9 @@ export default function Home() {
     return (
         <>
             <div className='mt-[125px]'>
-                <div className='h-[700px] relative' style={{ backgroundImage: `url(${homeImage})`, backgroundSize: 'cover' }}>
+                <div className='h-[700px] relative max-sm:h-[500px]' style={{ backgroundImage: `url(${homeImage})`, backgroundSize: 'cover' }}>
                     <div className='absolute w-full h-full bg-gradient-to-t from-[#00000069] via-[#000000bc] to-[#00000069]'></div>
-                    <div className='w-[780px] h-full flex flex-col justify-center px-[40px] z-20'>
+                    <div className='w-[768px] max-md:w-[400px] h-full flex flex-col justify-center px-[40px] z-20'>
                         <span className='text-white text-[55px] font-bold  z-20 max-sm:text-[30px]'>{t('home.homeTextHero')}</span>
                         <span className='text-white text-[29px] mt-[25px] font-bold  z-20 max-sm:text-[30px] max-sm:w-[300px]'>{t('home.homeTextHeroPrg')}</span>
                         <Link to='/contact' className='text-white bg-[#FFCE33] mt-[40px] rounded-[25px] w-[270px] text-[31px] font-bold text-center z-20 max-sm:text-[30px] max-sm:w-[300px]'>{t('home.homeTextHeroBtn')}</Link>
@@ -41,7 +41,7 @@ export default function Home() {
                 </div>
 
                 <div className='flex justify-center px-[40px] mt-[50px]'>
-                    <div className='flex justify-between w-[1000px] md:w-[700px]'>
+                    <div className='flex justify-between w-[1000px] max-sm:flex-col md:w-[700px]'>
                         <div className='flex flex-col items-center'>
                             <span className='text-[52px] font-black'>300 000 <strong className='text-[#FFCE33] text-[52px] font-black'>+</strong></span>
                             <span className='text-[26px] font-normal'>{t('home.stats.items')}</span>
@@ -137,9 +137,9 @@ export default function Home() {
                 </div>
 
                 <div className='h-[518px] w-full' style={{ backgroundImage: `url(${homeImage2})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
-                    <div className='w-[780px] h-full flex flex-col justify-center px-[40px] z-20'>
+                    <div className='w-[768px] max-md:w-[400px] h-full flex flex-col justify-center px-[40px] z-20'>
                         <span className='text-white text-[32px] font-bold  z-20 max-sm:text-[32px]'>{t('home.aboutUs.title')}</span>
-                        <span className='text-white text-[24px] mt-[25px] font-medium z-20 max-sm:text-[25px] max-sm:w-[300px]'>{t('home.aboutUs.description')}</span>
+                        <span className='text-white text-[24px] mt-[25px] font-medium z-20 max-sm:text-[18px] max-sm:w-[300px]'>{t('home.aboutUs.description')}</span>
                         <Link className='text-white bg-[#FFCE33] mt-[40px] rounded-[25px] w-[230px] text-[25px] font-bold text-center z-20 max-sm:text-[25px] max-sm:w-[300px]'>{t('home.aboutUs.learnMoreBtn')}</Link>
                     </div>
                 </div>

@@ -11,3 +11,44 @@
   font-family: "Roboto", sans-serif;
   scroll-behavior: smooth;
 }
+
+.page-enter {
+  transform: rotateY(90deg);
+  opacity: 0;
+}
+
+.page-enter-active {
+  transform: rotateY(0deg);
+  opacity: 1;
+  transition: transform 600ms, opacity 600ms;
+}
+
+.page-exit {
+  transform: rotateY(0deg);
+  opacity: 1;
+}
+
+.page-exit-active {
+  transform: rotateY(-90deg);
+  opacity: 0;
+  transition: transform 600ms, opacity 600ms;
+}
+
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border: none;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+  border: none;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}

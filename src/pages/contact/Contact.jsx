@@ -21,7 +21,7 @@ export default function Contact() {
 
   // Determine the font size based on the current language
   const getFontSize = () => {
-    return i18n.language === 'en' ? '230px' : i18n.language === 'de' ? '230px' : '150px';
+    return i18n.language === 'en' ? '230px' : i18n.language === 'de' ? '230px' : '230px';
   };
 
   const getPositionCard = () => {

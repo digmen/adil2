@@ -28,18 +28,18 @@ export default function Header() {
                     <button onClick={() => changeLanguage('trk')} className={stateLng ? 'text-black text-[17px] font-normal' : 'text-black text-[17px] font-normal underline decoration-[#FFCE33]'}>TURKISH</button>
                 </div>
                 <div className='flex items-end lg:gap-[50px] md:gap-2 max-md:pb-[30px] max-sm:hidden max-2xl:pd-[14px] max-lg:pb-[28px]'>
-                    <Link to='/' className={`lg:text-[24px] md:text-[24px] text-black text-[24px] font-bold ${isActiveLink('/') ? 'underline decoration-[#FFCE33]' : ''}`}>{t('header.homeLink')}</Link>
-                    <Link to='/about' className={`lg:text-[24px] md:text-[24px] text-black text-[24px] font-bold w-max ${isActiveLink('/about') ? 'underline decoration-[#FFCE33]' : ''}`}>{t('header.homeLink2')}</Link>
-                    <Link to='/product' className={`lg:text-[24px] md:text-[24px] text-black text-[24px] font-bold ${isActiveLink('/product') ? 'underline decoration-[#FFCE33]' : ''}`}>{t('header.homeLink3')}</Link>
-                    <Link to='/contact' className={`lg:text-[24px] md:text-[24px] text-black text-[24px] font-bold ${isActiveLink('/contact') ? 'underline decoration-[#FFCE33]' : ''}`}>{t('header.homeLink5')}</Link>
-                    <Link to='/service' className={`lg:text-[24px] md:text-[24px] text-black text-[24px] font-bold ${isActiveLink('/service') ? 'underline decoration-[#FFCE33]' : ''}`}>{t('header.homeLink4')}</Link>
+                    <Link to='/' className={`lg:text-[24px] md:text-[18px] text-black text-[24px] font-bold ${isActiveLink('/') ? 'underline decoration-[#FFCE33]' : ''}`}>{t('header.homeLink')}</Link>
+                    <Link to='/about' className={`lg:text-[24px] md:text-[18px] text-black text-[24px] font-bold w-max ${isActiveLink('/about') ? 'underline decoration-[#FFCE33]' : ''}`}>{t('header.homeLink2')}</Link>
+                    <Link to='/product' className={`lg:text-[24px] md:text-[18px] text-black text-[24px] font-bold ${isActiveLink('/product') ? 'underline decoration-[#FFCE33]' : ''}`}>{t('header.homeLink3')}</Link>
+                    <Link to='/contact' className={`lg:text-[24px] md:text-[18px] text-black text-[24px] font-bold ${isActiveLink('/contact') ? 'underline decoration-[#FFCE33]' : ''}`}>{t('header.homeLink5')}</Link>
+                    <Link to='/service' className={`lg:text-[24px] md:text-[18px] text-black text-[24px] font-bold ${isActiveLink('/service') ? 'underline decoration-[#FFCE33]' : ''}`}>{t('header.homeLink4')}</Link>
                 </div>
-            </div>
-            <div className='flex flex-col justify-end pb-[18px] gap-4 lg:hidden md:hidden 2xl:hidden xl:hidden '>
-                <div onClick={() => setModal(prev => !prev)} className='flex flex-col gap-2 items-end max-sm:flex lg:hidden md:hidden 2xl:hidden xl:hidden '>
-                    <div className='w-[30px] h-[2px] bg-white'></div>
-                    <div className='w-[30px] h-[2px] bg-white'></div>
-                    <div className='w-[30px] h-[2px] bg-white'></div>
+                <div className='flex flex-col justify-end pb-[18px] gap-4 lg:hidden md:hidden 2xl:hidden xl:hidden '>
+                    <div onClick={() => setModal(prev => !prev)} className='flex flex-col gap-2 items-end max-sm:flex lg:hidden md:hidden 2xl:hidden xl:hidden '>
+                        <div className='w-[30px] h-[2px] bg-black'></div>
+                        <div className='w-[30px] h-[2px] bg-black'></div>
+                        <div className='w-[30px] h-[2px] bg-black'></div>
+                    </div>
                 </div>
             </div>
             {modal &&
