@@ -7,55 +7,55 @@
     "homeLink5": "KONTAKTIERE UNS"
   },
   "home": {
-    "homeTextHero": "Güvenilebilecek Kalite",
-    "homeTextHeroPrg": "World Innovation Group ile konfor ve ilham yaratın",
-    "homeTextHeroBtn": "Şimdi sipariş ver",
+    "homeTextHero": "Qualität, der man vertrauen kann",
+    "homeTextHeroPrg": "Schaffen Sie Komfort und Inspiration mit der World Innovation Group",
+    "homeTextHeroBtn": "Jetzt bestellen",
     "stats": {
       "items": "Artikel",
       "brands": "Marken",
-      "clients": "Fröhliche Kunden"
+      "clients": "Zufriedene Kunden"
     },
     "products": {
       "title": "Unser Produkt",
       "categories": {
         "carAndMotorbike": {
           "title": "Auto und Motorrad",
-          "description": "Arabaların ve motosikletlerin onarımı ve bakımı, yüksek kaliteli yedek parça ve aletler gerektirir. [Şirket Adı] şirketi, nakliyenizi mükemmel durumda tutmak için ihtiyacınız olan her şeyi sağlar. Tüm ürünlerde yüksek kaliteyi, geniş ürün yelpazesini ve uygun fiyatları garanti ediyoruz. Profesyonel tavsiye ve gerekli yedek parçaların seçimi için bizimle iletişime geçin."
+          "description": "Die Reparatur und Wartung von Autos und Motorrädern erfordert hochwertige Ersatzteile und Werkzeuge.  "
         },
         "electronics": {
           "title": "Elektronik",
-          "description": "Ev ve ofis elektronikleri hayatımızı büyük ölçüde kolaylaştırır, konfor ve üretkenliği artırır. Şirket [Şirket adı] tüm ihtiyaçlarınızı karşılayacak geniş bir yelpazede yüksek kaliteli ve güvenilir ürünler sunmaktadır. Profesyonel tavsiye ve gerekli ekipmanın seçimi için bizimle iletişime geçin."
+          "description": "Elektronik für Zuhause und Büro vereinfacht unser Leben erheblich und erhöht den Komfort und die Produktivität.  "
         },
         "diyAndTools": {
           "title": "Heimwerken und Werkzeuge",
-          "description": "World Innovation Group şirketi, Kendin Yap projeleri için geniş bir araç ve malzeme yelpazesi sunmaktadır. Burada onarım, inşaat ve yaratıcılık için ihtiyacınız olan her şeyi bulacaksınız. Yüksek kaliteyi, uygun fiyatları ve profesyonel desteği garanti ediyoruz. DIY fikirlerinizi gerçeğe dönüştürmek için bizimle iletişime geçin."
+          "description": "Das Unternehmen World Innovation Group bietet eine große Auswahl an Werkzeugen und Materialien für DIY-Projekte.  "
         },
         "clothing": {
           "title": "Kleidung",
-          "description": "Firmamız her durum ve mevsim için geniş bir yelpazede modaya uygun ve kaliteli giyim sunmaktadır. Burada günlük eşyalardan şık kıyafetlere kadar mükemmel gardırobunuzu oluşturmak için ihtiyacınız olan her şeyi bulacaksınız. Yüksek kaliteli malzemeleri, çeşitli stilleri ve uygun fiyatları garanti ediyoruz."
+          "description": "Unser Unternehmen bietet ein breites Sortiment an modischer und hochwertiger Bekleidung für alle Anlässe und Jahreszeiten.   "
         },
         "computing": {
-          "title": "Bilgi işlem",
-          "description": "Das Unternehmen World Innovation Group bietet alles, was Sie für Ihren Computerbedarf benötigen. "
+          "title": "Computer",
+          "description": "Das Unternehmen World Innovation Group bietet alles, was Sie für Ihren Computerbedarf benötigen.  "
         },
         "textile": {
           "title": "Textil",
-          "description": "Das Unternehmen World Innovation Group bietet eine breite Palette an Textilprodukten für unterschiedliche Bedürfnisse. "
+          "description": "Das Unternehmen World Innovation Group bietet ein breites Sortiment an Textilprodukten für unterschiedliche Bedürfnisse.  "
         },
         "houseAppliances": {
           "title": "Haushaltsgeräte",
-          "description": "Das Unternehmen World Innovation Group bietet ein breites Sortiment an Haushaltsgeräten für Ihr Zuhause. "
+          "description": "Das Unternehmen World Innovation Group bietet ein breites Sortiment an Haushaltsgeräten für Ihr Zuhause.  "
         },
         "foodProducts": {
           "title": "Lebensmittel",
-          "description": "Das Unternehmen World Innovation Group bietet eine Vielzahl hochwertiger Lebensmittelprodukte an. "
+          "description": "Das Unternehmen World Innovation Group bietet eine Vielzahl hochwertiger Lebensmittelprodukte an.  "
         }
       },
       "moreBtn": "Mehr"
     },
     "aboutUs": {
       "title": "Über uns",
-      "description": "Unser Unternehmen ist auf den Großhandel mit hochwertigen Textilien, Haushaltswaren und Lebensmitteln spezialisiert. ",
+      "description": "Unser Unternehmen ist auf den Großhandel mit hochwertigen Textilien, Haushaltswaren und Lebensmitteln spezialisiert.  ",
       "learnMoreBtn": "Erfahren Sie mehr"
     },
     "brands": {
@@ -74,33 +74,33 @@
     },
     "ourPhilosophy": {
       "title": "Unsere Philosophie",
-      "description": "Die Philosophie unseres Unternehmens basiert auf drei Hauptprinzipien: Ehrlichkeit, Transparenz und ständiges Streben nach Exzellenz. "
+      "description": "Die Philosophie unseres Unternehmens basiert auf drei Hauptprinzipien: Ehrlichkeit, Transparenz und ständiges Streben nach Exzellenz.  "
     },
     "ourValues": {
       "title": "Unsere Werte",
       "dynamism": {
         "title": "Dynamik",
-        "description": "Wir entwickeln uns mit der rasanten Geschwindigkeit des E-Commerce weiter. "
+        "description": "Wir entwickeln uns mit der rasanten Geschwindigkeit des E-Commerce weiter.  "
       },
       "innovation": {
         "title": "Innovation",
-        "description": "Innovation ist der Kern unserer Strategie. "
+        "description": "Innovation ist der Kern unserer Strategie.  "
       },
       "passionForEcommerce": {
         "title": "Leidenschaft für E-Commerce",
-        "description": "Unsere Leidenschaft gilt dem Online-, Multi-Channel- und internationalen Verkauf. "
+        "description": "Unsere Leidenschaft gilt dem Online-, Multi-Channel- und internationalen Verkauf.  "
       }
     },
     "ourStory": {
       "title": "Unsere Geschichte",
-      "description": "Wir haben unser Unternehmen mit dem Ziel gegründet, Hersteller mit Kunden zu verbinden. "
+      "description": "Wir haben unser Unternehmen mit dem Ziel gegründet, Hersteller mit Kunden zu verbinden.  "
     }
   },
   "product": {
     "productTextHero": "Produkt",
     "whyChooseUs": {
       "title": "Warum uns wählen",
-      "description": "Wir bieten hochwertige Produkte in drei Hauptkategorien an: Textilien, Haushaltswaren und Lebensmittel. ",
+      "description": "Wir bieten hochwertige Produkte in drei Hauptkategorien an: Textilien, Haushaltswaren und Lebensmittel.  ",
       "qualities": [
         "Qualität: Wir arbeiten nur mit vertrauenswürdigen Lieferanten zusammen und gewährleisten so hohe Standards für jede Produktionseinheit.",
         "Vielfalt: Eine breite Produktpalette ermöglicht es Ihnen, unterschiedlichen Bedürfnissen und Geschmäckern gerecht zu werden.",
@@ -185,10 +185,10 @@
     }
   },
   "service": {
-    "heroText": "Dienstleiistungen",
+    "heroText": "Dienstleistungen",
     "whyServiceBest": {
       "title": "Warum ist unser Service der Beste?",
-      "description": "Wir sind stolz darauf, unseren Kunden einen außergewöhnlichen Service zu bieten, der uns von unseren Mitbewerbern abhebt. ",
+      "description": "Wir sind stolz darauf, unseren Kunden einen außergewöhnlichen Service zu bieten, der uns von unseren Mitbewerbern abhebt.  ",
       "points": [
         "Individueller Ansatz: Wir verstehen, dass jeder Kunde einzigartig ist und bieten personalisierte Lösungen an, die auf Ihre spezifischen Bedürfnisse und Erwartungen zugeschnitten sind.",
         "Professioneller Support: Unser Expertenteam steht Ihnen jederzeit bei Fragen zur Seite und gibt Ihnen qualifizierte Empfehlungen zur Produktauswahl.",
@@ -228,25 +228,25 @@
     "goalText": "Unser Ziel ist es, Ihre Erwartungen zu übertreffen und die Zusammenarbeit mit uns so angenehm und effizient wie möglich zu gestalten. "
   },
   "contact": {
-    "contactTextHero": "iletişim bilgilerimiz",
+    "contactTextHero": "KONTAKTIERE UNS",
     "methods": [
       {
         "title": "EMAIL",
         "details": "worldinnovationgroup@hotmail.com",
         "color": "#CBCBCB",
-        "textSize":"20"
+        "textSize": "20"
       },
       {
         "title": "TELEFON",
         "details": "+90 532 987 6543",
         "color": "#FFCE33",
-        "textSize":"40"
+        "textSize": "40"
       },
       {
         "title": "ADRESSE",
-        "details": "Ziya Gokalp Mah. Suleyman Demirel Blv. The Office No: 7E, Ic Kapi No: 136, Basaksehir / Istanbul / Turkiye",
+        "details": "Ziya gokalp mah. Suleyman demirel blv. The office no: 7e ic kapi no: 136 basaksehir/ Istanbul/ Turkiye",
         "color": "#0090FF",
-        "textSize":"30"
+        "textSize": "30"
       }
     ]
   }

@@ -21,11 +21,11 @@ export default function Contact() {
 
   // Determine the font size based on the current language
   const getFontSize = () => {
-    return i18n.language === 'en' ? '230px' : i18n.language === 'de' ? '230px' : '230px';
+    return i18n.language === 'en' ? '200px' : i18n.language === 'tr' ? '200px' : '150px';
   };
 
   const getPositionCard = () => {
-    return i18n.language === 'en' ? '20' : i18n.language === 'de' ? '20' : '12';
+    return i18n.language === 'en' ? '24' : i18n.language === 'tr' ? '24' : '24';
   }
 
   return (
@@ -35,7 +35,7 @@ export default function Contact() {
           {t('contact.contactTextHero')}
         </h1>
         <div className='flex justify-center '>
-          <div className={`flex gap-[100px] -translate-y-${getPositionCard()}`}>
+          <div className={`flex gap-[80px] -translate-y-${getPositionCard()}`}>
             {t('contact.methods', { returnObjects: true }).map((method, index) => (
               <div
                 key={index}

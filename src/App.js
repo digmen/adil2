@@ -15,11 +15,11 @@ export default function App() {
     <>
       <Header />
       <Routes>
-        <Route path="/" element={<TransitionWrapper><Home /></TransitionWrapper>} />ы
-        <Route path="/about" element={<TransitionWrapper><AboutUs /></TransitionWrapper>} />
-        <Route path="/product" element={<TransitionWrapper><Product /></TransitionWrapper>} />
-        <Route path="/service" element={<TransitionWrapper><Service /></TransitionWrapper>} />
-        <Route path="/contact" element={<TransitionWrapper><Contact /></TransitionWrapper>} />
+        <Route path="/" element={<><Home /></>} />ы
+        <Route path="/about" element={<><AboutUs /></>} />
+        <Route path="/product" element={<><Product /></>} />
+        <Route path="/service" element={<><Service /></>} />
+        <Route path="/contact" element={<><Contact /></>} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </>
