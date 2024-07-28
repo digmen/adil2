@@ -20,7 +20,7 @@
       "categories": {
         "carAndMotorbike": {
           "title": "Car And Motorbike",
-          "description": "The repair and maintenance of cars and motorcycles requires high-quality spare parts and tools. The company [Company Name] provides everything you need to keep your transport in excellent condition. We guarantee high quality, a wide range and affordable prices for all products. Contact us for professional advice and selection of necessary spare parts. "
+          "description": "The repair and maintenance of cars and motorcycles requires high-quality spare parts and tools. The company [Company Name] provides everything you need to keep your transport in excellent condition. We guarantee high quality, a wide range and affordable prices for all products. Contact us for professional advice and selection of necessary spare parts."
         },
         "electronics": {
           "title": "Electronics",
@@ -225,29 +225,15 @@
         "description": "Long-term relationships and an individual approach to each client."
       }
     ],
-    "goalText": "Our goal is to exceed your expectations and make working with us as pleasant and efficient as possible. "
+    "goalText": "Our goal is to exceed your expectations and make working with us as pleasant and efficient as possible."
   },
   "contact": {
     "contactTextHero": "CONTACT US",
-    "methods": [
-      {
-        "title": "EMAIL",
-        "details": "worldinnovationgroup@hotmail.com",
-        "color": "#CBCBCB",
-        "textSize":"20"
-      },
-      {
-        "title": "PHONE",
-        "details": "+90 532 987 6543",
-        "color": "#FFCE33",
-        "textSize":"40"
-      },
-      {
-        "title": "ADDRESS",
-        "details": "Ziya gokalp mah. Suleyman demirel blv. The office no: 7e ic kapi no: 136 basaksehir/ Istanbul/ Turkiye",
-        "color": "#0090FF",
-        "textSize":"30"
-      }
-    ]
+    "cardOneTitle":"EMAIL",
+    "cardEmail":"worldinnovationgroup@hotmail.com",
+    "cardTwoTitle":"PHONE",
+    "cardPhone":"+90 532 987 6543",
+    "cardThreeTitle":"ADDRESS",
+    "cardAdress":"Ziya gokalp mah. Suleyman demirel blv. The office no: 7e ic kapi no: 136 basaksehir/ Istanbul/ Turkiye"
   }
 }
