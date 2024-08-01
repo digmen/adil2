@@ -30,12 +30,12 @@ export default function Home() {
     }, []);
     return (
         <>
-            <div className='mt-[125px] max-sm:mt-[100px]'>
-                <div className='h-[700px] relative md:h-[600px] max-[375px]:h-[450px] max-sm:h-[400px]' style={{ backgroundImage: `url(${homeImage})`, backgroundSize: 'cover' }}>
+            <div className='mt-[125px] max-sm:mt-[60px] max-lg:mt-[80px]'>
+                <div className='h-[700px] relative md:h-[600px] max-[375px]:h-[400px] max-sm:h-[400px]' style={{ backgroundImage: `url(${homeImage})`, backgroundSize: 'cover' }}>
                     <div className='absolute w-full h-full bg-gradient-to-t from-[#00000069] via-[#000000bc] to-[#00000069]'></div>
                     <div className='xl:w-[770px] lg:w-[770px] max-sm:w-[300px] min-[375px]:w-[375px] md:w-[600px] max-sm:px-4 h-full flex flex-col justify-center px-[40px] z-20'>
                         <span className='text-white text-[55px] font-bold  z-20 max-sm:text-[24px]'>{t('home.homeTextHero')}</span>
-                        <span className='text-white text-[29px] mt-[25px] font-bold z-20 xl:w-[768px] lg:w-[770px] md:w-[600px] max-sm:text-[24px] max-sm:w-[270px] min-[375px]:w-[300px]'>{t('home.homeTextHeroPrg')}</span>
+                        <span className='text-white text-[29px] mt-[25px] font-bold z-20 xl:w-[768px] lg:w-[770px] md:w-[600px] max-sm:text-[24px] max-sm:w-fit min-[375px]:w-fit'>{t('home.homeTextHeroPrg')}</span>
                         <Link to='/contact' className='text-white bg-[#FFCE33] mt-[40px] rounded-[25px] w-[270px] text-[31px] font-bold text-center z-20 max-sm:text-[24px] max-sm:w-[250px]'>{t('home.homeTextHeroBtn')}</Link>
                     </div>
                 </div>
@@ -62,51 +62,51 @@ export default function Home() {
                         <h1 className='text-[32px] font-bold'>{t('home.products.title')}</h1>
                     </div>
                     <div className='mt-[30px] flex flex-wrap justify-center gap-[30px]'>
-                        <div className='w-[293px] h-[370px] bg-[#CBCBCB] rounded-[25px]'>
+                        <div className='w-[300px] h-[480px] bg-[#CBCBCB] rounded-[25px]'>
                             <div className='px-[20px] py-[22px] flex flex-col gap-1 items-center justify-center'>
-                                <h1 className='font-bold text-[26px]'>{t('home.products.categories.carAndMotorbike.title')}</h1>
+                                <h1 className='font-bold text-[26px] max-sm:text-[24px]'>{t('home.products.categories.carAndMotorbike.title')}</h1>
                                 <span className='font-light text-[16px]'>{t('home.products.categories.carAndMotorbike.description')}</span>
                             </div>
                         </div>
-                        <div className='w-[293px] h-[370px] bg-[#CBCBCB] rounded-[25px]'>
+                        <div className='w-[300px] h-[480px] bg-[#CBCBCB] rounded-[25px]'>
                             <div className='px-[20px] py-[22px] flex flex-col gap-1 items-center justify-center'>
-                                <h1 className='font-bold text-[26px]'>{t('home.products.categories.electronics.title')}</h1>
+                                <h1 className='font-bold text-[26px] max-sm:text-[24px]'>{t('home.products.categories.electronics.title')}</h1>
                                 <span className='font-light text-[16px]'>{t('home.products.categories.electronics.description')}</span>
                             </div>
                         </div>
-                        <div className='w-[293px] h-[370px] bg-[#CBCBCB] rounded-[25px]'>
+                        <div className='w-[300px] h-[480px] bg-[#CBCBCB] rounded-[25px]'>
                             <div className='px-[20px] py-[22px] flex flex-col gap-1 items-center justify-center'>
-                                <h1 className='font-bold text-[26px]'>{t('home.products.categories.diyAndTools.title')}</h1>
+                                <h1 className='font-bold text-[26px] max-sm:text-[24px]'>{t('home.products.categories.diyAndTools.title')}</h1>
                                 <span className='font-light text-[16px]'>{t('home.products.categories.diyAndTools.description')}</span>
                             </div>
                         </div>
-                        <div className='w-[293px] h-[370px] bg-[#CBCBCB] rounded-[25px]'>
+                        <div className='w-[300px] h-[480px] bg-[#CBCBCB] rounded-[25px]'>
                             <div className='px-[20px] py-[22px] flex flex-col gap-1 items-center justify-center'>
-                                <h1 className='font-bold text-[26px]'>{t('home.products.categories.clothing.title')}</h1>
+                                <h1 className='font-bold text-[26px] max-sm:text-[24px]'>{t('home.products.categories.clothing.title')}</h1>
                                 <span className='font-light text-[16px]'>{t('home.products.categories.clothing.description')}</span>
                             </div>
                         </div>
-                        <div className='w-[293px] h-[370px] bg-[#CBCBCB] rounded-[25px]'>
+                        <div className='w-[300px] h-[480px] bg-[#CBCBCB] rounded-[25px]'>
                             <div className='px-[20px] py-[22px] flex flex-col gap-1 items-center justify-center'>
-                                <h1 className='font-bold text-[26px]'>{t('home.products.categories.computing.title')}</h1>
+                                <h1 className='font-bold text-[26px] max-sm:text-[24px]'>{t('home.products.categories.computing.title')}</h1>
                                 <span className='font-light text-[16px]'>{t('home.products.categories.computing.description')}</span>
                             </div>
                         </div>
-                        <div className='w-[293px] h-[370px] bg-[#CBCBCB] rounded-[25px]'>
+                        <div className='w-[300px] h-[480px] bg-[#CBCBCB] rounded-[25px]'>
                             <div className='px-[20px] py-[22px] flex flex-col gap-1 items-center justify-center'>
-                                <h1 className='font-bold text-[26px]'>{t('home.products.categories.textile.title')}</h1>
+                                <h1 className='font-bold text-[26px] max-sm:text-[24px]'>{t('home.products.categories.textile.title')}</h1>
                                 <span className='font-light text-[16px]'>{t('home.products.categories.textile.description')}</span>
                             </div>
                         </div>
-                        <div className='w-[293px] h-[370px] bg-[#CBCBCB] rounded-[25px]'>
+                        <div className='w-[300px] h-[480px] bg-[#CBCBCB] rounded-[25px]'>
                             <div className='px-[20px] py-[22px] flex flex-col gap-1 items-center justify-center'>
-                                <h1 className='font-bold text-[26px]'>{t('home.products.categories.houseAppliances.title')}</h1>
+                                <h1 className='font-bold text-[26px] max-sm:text-[24px]'>{t('home.products.categories.houseAppliances.title')}</h1>
                                 <span className='font-light text-[16px]'>{t('home.products.categories.houseAppliances.description')}</span>
                             </div>
                         </div>
-                        <div className='w-[293px] h-[370px] bg-[#CBCBCB] rounded-[25px]'>
+                        <div className='w-[300px] h-[480px] bg-[#CBCBCB] rounded-[25px]'>
                             <div className='px-[20px] py-[22px] flex flex-col gap-1 items-center justify-center'>
-                                <h1 className='font-bold text-[26px]'>{t('home.products.categories.foodProducts.title')}</h1>
+                                <h1 className='font-bold text-[26px] max-sm:text-[24px]'>{t('home.products.categories.foodProducts.title')}</h1>
                                 <span className='font-light text-[16px]'>{t('home.products.categories.foodProducts.description')}</span>
                             </div>
                         </div>
@@ -138,8 +138,8 @@ export default function Home() {
 
                 <div className='h-[518px] w-full' style={{ backgroundImage: `url(${homeImage2})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
                     <div className='w-[768px] max-sm:px-4 max-sm:w-full max-sm:items-center max-md:w-[400px] h-full flex flex-col justify-center px-[40px] z-20'>
-                        <span className='text-white text-[32px] font-bold  z-20 max-sm:text-[32px]'>{t('home.aboutUs.title')}</span>
-                        <span className='text-white text-[24px] mt-[25px] font-medium z-20 max-sm:text-[18px] max-sm:w-full'>{t('home.aboutUs.description')}</span>
+                        <span className='text-white text-[32px] max-sm:text-[24px] font-bold  z-20 '>{t('home.aboutUs.title')}</span>
+                        <span className='text-white text-[24px]   mt-[25px] font-medium z-20 max-sm:text-[18px] max-sm:w-full'>{t('home.aboutUs.description')}</span>
                         <Link className='text-white bg-[#FFCE33] mt-[40px] rounded-[25px] w-[230px] text-[25px] font-bold text-center z-20 max-sm:text-[25px] max-sm:w-[300px]'>{t('home.aboutUs.learnMoreBtn')}</Link>
                     </div>
                 </div>

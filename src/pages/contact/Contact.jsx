@@ -24,9 +24,9 @@ export default function Contact() {
   }
 
   return (
-    <div className='mt-[125px] max-sm:mt-[125px]'>
+    <div className='mt-[125px] max-sm:mt-[80px] max-lg:mt-[80px]'>
       <div className='px-[40px] max-sm:px-4'>
-        <h1 className='text-center font-bold lg:text-[150px] md:text-[100px] max-sm:text-[30px]'>
+        <h1 className='text-center uppercase font-bold lg:text-[150px] md:text-[100px] max-sm:text-[30px]'>
           {t('contact.contactTextHero')}
         </h1>
         <div className='flex justify-center max-sm:mt-16 '>
@@ -38,7 +38,7 @@ export default function Contact() {
               </div>
             </div>
             <div className='xl:w-[390px] xl:h-[500px] lg:w-[250px] lg:h-[350px] md:w-[200px] md:h-[260px] max-sm:w-[90%] bg-[#FFCE33] p-[30px] rounded-[25px] flex flex-col items-center -rotate-12'>
-              <h2 className='font-bold xl:text-[50px] lg:text-[30px]'>{t('contact.cardTwoTitle')}</h2>
+              <h2 className='font-bold xl:text-[50px] lg:text-[30px] text-center'>{t('contact.cardTwoTitle')}</h2>
               <div className='flex flex-1 justify-center items-center'>
                 <span className='font-light xl:text-[40px] lg:text-[18px]'>{t('contact.cardPhone')}</span>
               </div>

@@ -10,12 +10,12 @@ export default function Footer() {
 
     return (
         <div className='flex justify-between px-[40px] pt-[25px] w-full max-sm:px-4 max-sm:pb-12 bg-white' style={{ backgroundImage: `url(${footerBg})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
-            <div className='flex w-full items-center justify-between py-[20px]  max-sm:flex-col md:flex-col md:gap-3 lg:flex-col lg:justify-between xl:flex-row'>
+            <div className='flex w-full items-center justify-between py-[20px] max-sm:p-0 max-sm:flex-col md:flex-col md:gap-3 lg:flex-col lg:justify-between xl:flex-row'>
                 <div className='flex items-center justify-center flex-col gap-4 xl:w-[200px]'>
                     <img src={logo} alt='logo' className='w-[80px] h-[150px]' />
                 </div>
                 <div className='flex max-sm:gap-2 max-sm:items-center max-sm:flex-col md:justify-between md:gap-3 xl:flex-1 md:w-full'>
-                    <div className='flex flex-col items-start gap-[1px] w-[180px] max-sm:w-max md:w-max lg:w-[150px] max-sm:items-center'>
+                    <div className='flex flex-col items-start gap-[1px] w-[180px] md:w-max lg:w-[150px] max-sm:hidden'>
                         <Link to='/' className='text-white md:text-[14px] text-[24px] font-medium lg:text-[24px]'>{t('header.homeLink')}</Link>
                         <Link to='/about' className='text-white md:text-[14px] text-[24px] font-medium lg:text-[24px]'>{t('header.homeLink2')}</Link>
                         <Link to='/contact' className='text-white md:text-[14px] text-[24px] font-medium lg:text-[24px]'>{t('header.homeLink5')}</Link>

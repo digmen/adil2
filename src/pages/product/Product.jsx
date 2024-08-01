@@ -23,7 +23,7 @@ export default function Product() {
 
   return (
     <>
-      <div className='mt-[125px] max-sm:mt-[100px]'>
+      <div className='mt-[125px] max-sm:mt-[60px] max-lg:mt-[80px]'>
         <div className='h-[200px] md:h-[150px] max-md:h-[100px] max-sm:h-[80px]' style={{ backgroundImage: `url(${productHero})`, backgroundSize: 'cover' }}>
           <div className='h-[200px] md:h-[150px] max-md:h-[100px] max-sm:h-[80px] flex items-center px-[40px] max-sm:px-4  z-20'>
             <span className='text-white text-[55px] font-black text-center z-20 max-sm:text-[30px]'>{t('product.productTextHero')}</span>
@@ -31,13 +31,13 @@ export default function Product() {
         </div>
 
         <div className='px-[40px] bg-[#FFCE33] max-sm:px-4'>
-          <div className='flex justify-between items-center py-[50px] md:flex-col md:gap-4 max-sm:flex-col max-sm:gap-6'>
-            <div className='w-[670px] lg:w-[450px] max-sm:w-[300px] flex flex-col gap-[20px]'>
-              <h1 className='text-[32px] font-bold'>{t('product.whyChooseUs.title')}</h1>
-              <p className='text-[18px] font-normal'>{t('product.whyChooseUs.description')}</p>
-              <ul className='list-disc pl-9 flex flex-col gap-3'>
+          <div className='flex justify-between  items-center py-[50px] max-sm:py-[20px] lg:flex-row md:flex-col md:gap-4 max-sm:flex-col max-sm:gap-6'>
+            <div className='w-[670px] lg:w-[450px] max-sm:w-fit flex flex-col gap-[20px]'>
+              <h1 className='text-[32px] max-sm:text-[24px] font-bold'>{t('product.whyChooseUs.title')}</h1>
+              <p className='text-[18px] font-normal max-sm:text-[14px]'>{t('product.whyChooseUs.description')}</p>
+              <ul className='list-disc pl-9 flex flex-col gap-3 max-sm:pl-4'>
                 {t('product.whyChooseUs.qualities', { returnObjects: true }).map((quality, index) => (
-                  <li key={index}>{quality}</li>
+                  <li key={index} className='max-sm:text-[14px]'>{quality}</li>
                 ))}
               </ul>
             </div>
@@ -53,7 +53,7 @@ export default function Product() {
           </div>
           <div className='mt-[30px] flex flex-wrap justify-center gap-[30px]'>
             {t('product.mostPopularProduction.categories', { returnObjects: true }).map((category, index) => (
-              <div key={index} className='w-[293px] h-[253px] bg-[#CBCBCB] rounded-[25px]'>
+              <div key={index} className='w-[293px] bg-[#CBCBCB] rounded-[25px]'>
                 <div className='px-[30px] py-[22px] flex flex-col gap-[10px]'>
                   <h1 className='font-bold text-[26px]'>{category.title}</h1>
                   <ul className='list-disc pl-9 flex flex-col gap-3'>
