@@ -62,49 +62,49 @@ export default function Home() {
                         <h1 className='text-[32px] font-bold'>{t('home.products.title')}</h1>
                     </div>
                     <div className='mt-[30px] flex flex-wrap justify-center gap-[30px]'>
-                        <div className='w-[300px] h-[480px] bg-[#CBCBCB] rounded-[25px]'>
+                        <div className='w-[300px] bg-[#CBCBCB] rounded-[25px]'>
                             <div className='px-[20px] py-[22px] flex flex-col gap-1 items-center justify-center'>
                                 <h1 className='font-bold text-[26px] max-sm:text-[24px]'>{t('home.products.categories.carAndMotorbike.title')}</h1>
                                 <span className='font-light text-[16px]'>{t('home.products.categories.carAndMotorbike.description')}</span>
                             </div>
                         </div>
-                        <div className='w-[300px] h-[480px] bg-[#CBCBCB] rounded-[25px]'>
+                        <div className='w-[300px] bg-[#CBCBCB] rounded-[25px]'>
                             <div className='px-[20px] py-[22px] flex flex-col gap-1 items-center justify-center'>
                                 <h1 className='font-bold text-[26px] max-sm:text-[24px]'>{t('home.products.categories.electronics.title')}</h1>
                                 <span className='font-light text-[16px]'>{t('home.products.categories.electronics.description')}</span>
                             </div>
                         </div>
-                        <div className='w-[300px] h-[480px] bg-[#CBCBCB] rounded-[25px]'>
+                        <div className='w-[300px] bg-[#CBCBCB] rounded-[25px]'>
                             <div className='px-[20px] py-[22px] flex flex-col gap-1 items-center justify-center'>
                                 <h1 className='font-bold text-[26px] max-sm:text-[24px]'>{t('home.products.categories.diyAndTools.title')}</h1>
                                 <span className='font-light text-[16px]'>{t('home.products.categories.diyAndTools.description')}</span>
                             </div>
                         </div>
-                        <div className='w-[300px] h-[480px] bg-[#CBCBCB] rounded-[25px]'>
+                        <div className='w-[300px] bg-[#CBCBCB] rounded-[25px]'>
                             <div className='px-[20px] py-[22px] flex flex-col gap-1 items-center justify-center'>
                                 <h1 className='font-bold text-[26px] max-sm:text-[24px]'>{t('home.products.categories.clothing.title')}</h1>
                                 <span className='font-light text-[16px]'>{t('home.products.categories.clothing.description')}</span>
                             </div>
                         </div>
-                        <div className='w-[300px] h-[480px] bg-[#CBCBCB] rounded-[25px]'>
+                        <div className='w-[300px] bg-[#CBCBCB] rounded-[25px]'>
                             <div className='px-[20px] py-[22px] flex flex-col gap-1 items-center justify-center'>
                                 <h1 className='font-bold text-[26px] max-sm:text-[24px]'>{t('home.products.categories.computing.title')}</h1>
                                 <span className='font-light text-[16px]'>{t('home.products.categories.computing.description')}</span>
                             </div>
                         </div>
-                        <div className='w-[300px] h-[480px] bg-[#CBCBCB] rounded-[25px]'>
+                        <div className='w-[300px] bg-[#CBCBCB] rounded-[25px]'>
                             <div className='px-[20px] py-[22px] flex flex-col gap-1 items-center justify-center'>
                                 <h1 className='font-bold text-[26px] max-sm:text-[24px]'>{t('home.products.categories.textile.title')}</h1>
                                 <span className='font-light text-[16px]'>{t('home.products.categories.textile.description')}</span>
                             </div>
                         </div>
-                        <div className='w-[300px] h-[480px] bg-[#CBCBCB] rounded-[25px]'>
+                        <div className='w-[300px] bg-[#CBCBCB] rounded-[25px]'>
                             <div className='px-[20px] py-[22px] flex flex-col gap-1 items-center justify-center'>
                                 <h1 className='font-bold text-[26px] max-sm:text-[24px]'>{t('home.products.categories.houseAppliances.title')}</h1>
                                 <span className='font-light text-[16px]'>{t('home.products.categories.houseAppliances.description')}</span>
                             </div>
                         </div>
-                        <div className='w-[300px] h-[480px] bg-[#CBCBCB] rounded-[25px]'>
+                        <div className='w-[300px] bg-[#CBCBCB] rounded-[25px]'>
                             <div className='px-[20px] py-[22px] flex flex-col gap-1 items-center justify-center'>
                                 <h1 className='font-bold text-[26px] max-sm:text-[24px]'>{t('home.products.categories.foodProducts.title')}</h1>
                                 <span className='font-light text-[16px]'>{t('home.products.categories.foodProducts.description')}</span>

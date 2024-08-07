@@ -66,8 +66,8 @@ export default function Service() {
         </div>
 
         <div className='h-[862px] lg:h-[670px] max-sm:h-[200px] sm:h-[400px] flex justify-center items-center' style={{ backgroundImage: `url(${serviceDownBg})`, backgroundSize: 'cover' }}>
-          <div className='flex justify-center items-center w-[700px] max-sm:w-[200px] sm:w-[300px]'>
-            <p className='text-[32px] max-sm:text-[16px] sm:text-[18px] font-medium text-center'>
+          <div className='flex justify-center items-center lg:w-[700px] max-sm:w-[200px] sm:w-[300px]'>
+            <p className='lg:text-[32px] max-sm:text-[16px] sm:text-[18px] font-medium text-center'>
               {t('service.goalText')}
             </p>
           </div>
